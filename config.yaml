@@ -17,3 +17,7 @@ menu:
       url: "tags"
       weight: 5
 
+taxonomies:
+  category: categories
+  author: authors
+  tag: tags

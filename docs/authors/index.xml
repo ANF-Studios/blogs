@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on ANF Blogs</title>
+    <link>https://anf.github.io/authors/</link>
+    <description>Recent content in Authors on ANF Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://github.com/ANF/&#34;&gt;ANF&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Tue, 02 Feb 2021 09:55:26 -0500</lastBuildDate><atom:link href="https://anf.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ANF-Studios</title>
+      <link>https://anf.github.io/authors/anf-studios/</link>
+      <pubDate>Tue, 02 Feb 2021 09:55:26 -0500</pubDate>
+      
+      <guid>https://anf.github.io/authors/anf-studios/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

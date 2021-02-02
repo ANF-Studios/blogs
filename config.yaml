@@ -1,9 +1,10 @@
-baseURL: "https://anf.github.io/"
+baseURL: "https://anf.myst.rs/"
 languageCode: "en-us"
 title: "ANF Blogs"
 theme: "eureka"
 copyright: >
   &copy; 2021 <a href="https://github.com/ANF/">ANF</a>
+description: "Test"
 publishDir: "docs"
 enableEmoji: true
 

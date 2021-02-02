@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ANF Blogs</title>
+    <link>https://anf.myst.rs/</link>
+    <description>Recent content on ANF Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://github.com/ANF/&#34;&gt;ANF&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Tue, 02 Feb 2021 09:55:26 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://anf.myst.rs/projects/</link>
+      <pubDate>Tue, 02 Feb 2021 09:55:26 -0500</pubDate>
+      
+      <guid>https://anf.myst.rs/projects/</guid>
+      <description>Current projects pastemyst-rs  Cover all the required features and finally bump it to version 1. Possibly write a custom implementation of an http request or switch to one that doesn&amp;rsquo;t send a Result&amp;lt;&amp;hellip;&amp;gt;.  BotANF  Redesign the bot, in TypeScript. Have minimal features but not bare minimum. Dynamic code (unlike v1) which works according to the code and is not hard coded.  Draft (formerly as ANFPad)  Make it a modern notepad application.</description>
+    </item>
+    
+  </channel>
+</rss>

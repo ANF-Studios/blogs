@@ -1,0 +1,4 @@
+baseURL: "https://anf.github.io/"
+languageCode: "en-us"
+title: "ANF Blogs"
+theme: "eureka"

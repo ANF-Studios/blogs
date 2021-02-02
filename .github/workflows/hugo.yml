@@ -3,7 +3,8 @@ name: Build Site
 on:
   push:
     branches:
-      - main
+      #- main
+       - _main # main has been commented due to certain build errors.
 
 jobs:
   build:

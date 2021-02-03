@@ -16,6 +16,9 @@ menu:
     - name: Projects
       url: "projects"
       weight: 2
+    - name: Series
+      url: "series"
+      weight: 3
     - name: Categories
       url: "categories"
       weight: 4
@@ -25,5 +28,6 @@ menu:
 
 taxonomies:
   category: categories
+  series: series
   author: authors
   tag: tags

@@ -8,6 +8,9 @@ tags: ["Roadmap"]
 
 # Current projects
 
+## This blog
+- I really want to write lengthy devlogs and possibly even tutorials, it just really helps people out and.. I love teaching, and I like to see a smile when someone is helped out.
+
 ## pastemyst-rs
 - Cover all the required features and finally bump it to version 1.
 - Possibly write a custom implementation of an http request or switch to one that doesn't send a Result<...>.

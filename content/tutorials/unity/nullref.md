@@ -97,4 +97,4 @@ We have successfully set our object to inactive, cheers :tada:
 
 So now we can access all these components being assured that we have have it working. There are other ways to access it, we're not going to get into those today however, but that's pretty much it. I really hope I could clear everything out, if you still have confusions or questions; I am often on discord (don't worry, if I'm not available, others are really helpful) so you can hit me up at [discord/ANF-Studios](https://discord.gg/fKWpK7A) :wink:
 
-Other useful servers are [discord/Unity](discord.gg/Unity) and [discord/Brackeys](discord.gg/Brackeys).
+Other useful servers are [discord/Unity](https://discord.gg/Unity) and [discord/Brackeys](https://discord.gg/Brackeys).

@@ -1,7 +1,7 @@
 ---
 title: "Null Reference Exception"
 date: 2021-02-03T09:32:38-05:00
-draft: true
+draft: false
 authors: ["ANF-Studios"]
 categories: ["Errors"]
 tags: ["Common programming mistakes", "Null Reference Exception"]

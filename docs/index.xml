@@ -26,7 +26,7 @@ We are a small team of passionate developers trying to contribute to the open so
       <pubDate>Tue, 02 Feb 2021 09:55:26 -0500</pubDate>
       
       <guid>https://anf.myst.rs/projects/</guid>
-      <description>Current projects pastemyst-rs  Cover all the required features and finally bump it to version 1. Possibly write a custom implementation of an http request or switch to one that doesn&amp;rsquo;t send a Result&amp;lt;&amp;hellip;&amp;gt;.  BotANF  Redesign the bot, in TypeScript. Have minimal features but not bare minimum. Dynamic code (unlike v1) which works according to the code and is not hard coded.  Draft (formerly as ANFPad)  Make it a modern notepad application.</description>
+      <description>Current projects This blog  I really want to write lengthy devlogs and possibly even tutorials, it just really helps people out and.. I love teaching, and I like to see a smile when someone is helped out.  pastemyst-rs  Cover all the required features and finally bump it to version 1. Possibly write a custom implementation of an http request or switch to one that doesn&amp;rsquo;t send a Result&amp;lt;&amp;hellip;&amp;gt;.</description>
     </item>
     
   </channel>

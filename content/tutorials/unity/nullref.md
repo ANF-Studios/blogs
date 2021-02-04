@@ -8,7 +8,7 @@ tags: ["Common programming mistakes", "Null Reference Exception"]
 series: "Unity"
 ---
 
-As a beginner, at some point or another, you must have encountered null reference exception while developing your application and it's really hard to understand how to fix it (mainly because, in my opinion, some game devs do not have prior knowledge of C#). So today, you'll be learning how to fix it, I'll try to simplify it as much as possible. So first of all, I want to start off with null reference exceptions because well, it's a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through about what this "Null Reference Exception" is and how to fix it.
+As a beginner, at some point or another, you must have encountered null reference exception while developing your application and, for some people it's really hard to understand how to fix it (mainly because, in my opinion, some game devs do not have prior knowledge of C#). So today, you'll be learning how to fix it, I'll try to simplify it as much as possible. So first of all, I want to start off with null reference exceptions because well, it's a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through about what this "Null Reference Exception" is and how to fix it.
 
 So, why does null ref (short for null reference exception) even happen?
 Well, the simplest answer for this could be that C# throws this exception when one of your variable is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null) which basically means

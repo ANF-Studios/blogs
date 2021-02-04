@@ -55,7 +55,7 @@
     },
     "headline": "Null Reference Exception | ANF Blogs","datePublished": "2021-02-03T09:32:38-05:00",
     "dateModified": "2021-02-03T09:32:38-05:00",
-    "wordCount":  978 ,
+    "wordCount":  1007 ,
     "author": {
         "@type": "Person",
         "name": ["ANF-Studios"]
@@ -269,6 +269,7 @@ Well, the simplest answer for this could be that C# throws this exception when o
 <img src="/img/tutorials/unity/nullref/assign.gif" alt="Assign myCube"></p>
 <p>What we&rsquo;ve done here is that we&rsquo;ve &ldquo;cached&rdquo; our object - this is really great for runtime performance. And now, when we run our code, we should see that the null reference exception is now gone:
 <img src="/img/tutorials/unity/nullref/exception_fixed.png" alt="Fixed results"></p>
+<p>Quick side note, you can also create a new object instance, that&rsquo;ll also work out fine, it just at its core depends on what you really want to do.</p>
 <p>Now if we want to access the SetActive property, we&rsquo;re going to need to access it. Which we can now do because we have the game object. Now, when we&rsquo;ll run this code, we won&rsquo;t see any errors - so far, you&rsquo;re code should look like this (that is if, you&rsquo;re following this tutorial in a sandbox playground project):</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cs" data-lang="cs"><span style="color:#66d9ef">using</span> UnityEngine;
 

@@ -26,4 +26,4 @@ PasteMystRS is a API wrapper for [PasteMyst](https://paste.myst.rs), written in 
 ## Obsidian
 It's a game engine, currently closed source but we're going to make it open source pretty soon, stay tuned for that - you don't want to miss it out.
 
-### You can find a roadmap of these projects [here]( https://anf.github.io/projects/).
+### You can find a roadmap of these projects [here](https://anf.github.io/projects/).

@@ -8,7 +8,17 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://github.com/ANF/&#34;&gt;ANF&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 02 Feb 2021 14:20:55 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Feb 2021 09:32:38 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Null Reference Exception</title>
+      <link>https://anf.myst.rs/tutorials/unity/nullref/</link>
+      <pubDate>Wed, 03 Feb 2021 09:32:38 -0500</pubDate>
+      
+      <guid>https://anf.myst.rs/tutorials/unity/nullref/</guid>
+      <description>Okay so first of all, I want to start off with null reference exceptions because well, it&amp;rsquo;s a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through about what this &amp;ldquo;Null Reference Exception&amp;rdquo; is and how to fix it.
+So, why does null ref (short for null reference exception) even happen? Well, the simplest answer for this could be that C# throws this exception when one of your variable is null which basically means</description>
+    </item>
+    
     <item>
       <title>Hello</title>
       <link>https://anf.myst.rs/blog/hello/</link>

@@ -78,6 +78,8 @@ Now just drag and drop the cube object in there (or just click on the plus butto
 What we've done here is that we've "cached" our object - this is really great for runtime performance. And now, when we run our code, we should see that the null reference exception is now gone:
 ![Fixed results](/img/tutorials/unity/nullref/exception_fixed.png)
 
+Quick side note, you can also create a new object instance, that'll also work out fine, it just at its core depends on what you really want to do.
+
 Now if we want to access the SetActive property, we're going to need to access it. Which we can now do because we have the game object. Now, when we'll run this code, we won't see any errors - so far, you're code should look like this (that is if, you're following this tutorial in a sandbox playground project):
 ```cs
 using UnityEngine;

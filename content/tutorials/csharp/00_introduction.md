@@ -26,4 +26,10 @@ Well, there might be a number of different people here with different reactions:
 3. The professional, who says;
     - Stand back, time to write a game engine, an operating system, make a computer and whatnot.
 
-The beginner has the right thought.
+The beginner has the right thought. So let's first get to know about programming itself, to know what we're dealing with. I'm going to give you a few seconds to think it out yourself. Ask yourself, "what is programming?". It's okay if you can't define it, just tell yourself whatever you know. Now let's compare it with the actual definition according to wikipedia:
+> Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task.
+
+Automation, to make our lives easier
+
+<!-- TODO: Fill in the rest of the page -->
+

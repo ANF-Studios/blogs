@@ -20,10 +20,10 @@ Well, there might be a number of different people here with different reactions:
 1. The beginner, who asks;
     - What is programming and what is its extent?
 
-2. The novice
+2. The novice, who says;
     - Time to write something that works.
 
-3. The professional
+3. The professional, who says;
     - Stand back, time to write a game engine, an operating system, make a computer and whatnot.
 
 The beginner has the right thought.

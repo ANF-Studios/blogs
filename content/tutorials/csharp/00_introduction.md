@@ -51,6 +51,30 @@ Now that that's covered, let's get to the fun part, shall we?
 
 So what we're going to be using is Visual Studio Code, it's a "code editor" developed by Microsoft. There's an IDE called `Visual Studio 20XX` (where XX is the year), but I won't be using that because it's only for Windows and Macintosh, if anyone here is on Linux, they won't be really guided which is not what I want, I want my lessons to be covered for everybody, at least when it's possible.
 
+If you *really* want to use the IDE, you can find some other guide and use it, but I would only half recommend.
+
+For now, you can head over to [Code.VisualStudio](https://code.visualstudio.com/) and press the download button (for me, I'm on Windows 10 x64, you might see something else, don't worry about that however):
+
+![Download VS Code](/img/tutorials/csharp/00_introduction/download_vscode.png)
+
+Now you can wait for the installer to install, and as soon as that's done, you can configure it according to however you want. *However*, I wouldn't recommend changing any setting, they are the "best" ones or at least good enough. Beware that this "PATH" setting is really important, I would strictly prohibit you from leaving it unchecked. The "PATH" allows you to run the `code` command in your terminal/CLI.
+
+As soon as that's installed, verify that it's there - you might want to restart your PC just in case to be safer, but you do not need to, unless it asks to.
+
+After that, open up any terminal of yours, even command prompt will do and then type in `code` and wait for VS Code (Visual Studio Code) to launch. You can also fire it up via your start menu or whatever your prefer though I would recommend getting used to the CLI as well.
+
+Side note: You can also supply arguments to the `code` command such as the path (not to be confused with PATH) argument which may look something like `code ../` (go one directory before the CLI's directory and launch VS Code in that directory). There are also other ones, type in `code --help` for more information.
+
+Now that you've opened your preferred folder within VS Code, you should see something like so:
+
+![VSCode](/img/tutorials/csharp/00_introduction/vscode.png)
+
+Now yours will be most likely different from mine, don't worry about that. I'll explain the reason behind that; VS Code is highly customizable and there are these things called "extensions" which are like "Minecraft Addons" for those of your Minecraft players. There are almost no limits into how you want VS Code to look like, heck you can even change the colors of the interface.
+
+You can have a look at some extensions that you can download yourselves by pressing `Ctrl` + `Shift` + `S`. But for now, we will be installing only one extension, the C# extension which enables intellisense for us, so in the search box, type in "C#" and install the very first extension you see named nothing but `C#` and is published by Microsoft.
+
+![VSCode_C#_Extension](/img/tutorials/csharp/00_introduction/install_csharp_extension.png)
+
 
 <!-- TODO: Fill in the rest of the page -->
 

@@ -9,7 +9,7 @@ series: "CSharp"
 ---
 
 Oh, hello there!
-I think you're interested in learning C# (pronounced as C Sharp). Well, you're in luck because [ANF](https://github.com/ANF) is planning to make tutorials and write some tips on C#. For those of you who like to interact through video, no this series will most likely never be based on video. There shall be nothing but plain text to read. So I hope you like reading!
+I think you're interested in learning C# (pronounced as "See Sharp"). Well, you're in luck because [ANF](https://github.com/ANF) is planning to make tutorials and write some tips on C#. For those of you who like to interact through video, no this series will most likely never be based on video. There shall be nothing but plain text to read. So I hope you like reading!
 
 Before we get into this, I want to give you a quick disclaimer that I am no C# professional and I am only really just going to teach you everything that I know. I will try to make everything as detailed and as simple to understand as possibly. Quick note that if something is incorrect, you can hit me up at my Discord at [discord/ANF-Studios](https://discord.gg/fKWpK7A) (you can also get some help by other cool programmers there :wink:) or just create a PR at the repository; [github/ANF/anf.github.io](https://github.com/ANF/anf.github.io/pulls).
 

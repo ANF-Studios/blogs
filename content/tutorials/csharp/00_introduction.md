@@ -8,6 +8,8 @@ tags: []
 series: "CSharp"
 ---
 
+## Introduction
+
 Oh, hello there!
 I think you're interested in learning C# (pronounced as "See Sharp"). Well, you're in luck because [ANF](https://github.com/ANF) is planning to make tutorials and write some tips on C#. For those of you who like to interact through video, no this series will most likely never be based on video. There shall be nothing but plain text to read. So I hope you like reading!
 
@@ -31,6 +33,8 @@ The beginner has the right thought. So let's first get to know about programming
 
 Automation, to make our lives easier. That is what we're going to learn.
 
+## Introduction into C#
+
 So what is C#?
 
 C# is a modern, object-oriented, and type-safe programming language.
@@ -46,6 +50,8 @@ The term object oriented means something, anything really, not specifically prog
 We'll be allocating variables a lot and this is an important concept. I'll try to "allocate" more time to explain these because this will help you a lot :wink:
 
 Now finally, what is "type-safe", well, type safety is.. well, a major problem, especially for beginners in more low level languages where you control the memory which is uh.. not an easy task as a beginner. What'll happen is that your application will just.. crash, that's it. You have to figure out why it crashes, thankfully, Microsoft's Visual Studio (it's what we'll be programming in :eyes:) has a built-in debugger which tells us as much as it knows. For example, when our application crashes, it *will* tell us which line caused it to crash and there we go! We can tell what's the problem. That really helps out, but this in C#, it's a managed language which means pretty much everything will be handled for us which is kind of nice. Back to the point; C# handles memory for us in most cases which prevents such crashes and mishaps that you would see when dealing with other languages (even I am guilty of this, but it works out eventually).
+
+## Setting up our code editor
 
 Now that that's covered, let's get to the fun part, shall we?
 
@@ -75,6 +81,8 @@ You can have a look at some extensions that you can download yourselves by press
 
 ![VSCode_C#_Extension](/img/tutorials/csharp/00_introduction/install_csharp_extension.png)
 
+## Installing dotNET
+
 Now that we have the C# extension, *the extension* (not VS Code itself) will install some tools that are required for debugging. While that is working, you also need to some how convert your text-based "code" into some binary form to run it, that's really important because that's just "[intellisense](https://en.wikipedia.org/wiki/Intelligent_code_completion)" you have and that doesn't have much worth without the actual tool to convert it, it's called the C# "compiler", that complies code and it's called .NET (pronounced as "dot net"). And yes, you also need to install dotNET to build tools.
 
 Now if you're wondering what that .NET Framework thing-y was when updating Windows *specifically*, well, that's the "runtime" framework that *only* allows you to run dotNET Framework applications. But what we're installing is called dotNET, literally just dotNET. It's nothing more.
@@ -94,6 +102,8 @@ I don't know how the screen looks like on 32 bit systems, but if you are on one,
 After that's installed, once again, restart your pc just in case if you want to, I highly recommend it however just to stay safe. If it does ask you to, then you really have no option at all.
 
 Great! We have everything we need set up!
+
+## Creating our project
 
 Now let's move on to the fun part, open back up the VS Code window and click on the terminal and type in `dotnet new console`.
 
@@ -164,6 +174,8 @@ namespace learning_csharp
 }
 ```
 
+## What does our program mean
+
 These are only a few lines however, it can be complex to understand for some of you. Forget everything in there, just focus on `static void Main(string[] args)`. What that means is that `Main` is the main method meaning it tells our program where to start running, or rather executing. Without the main method, programs don't run as they don't know where to start. About static, well that means that there can't be more than one instance of that Main method, in programming, you can create more than one objects. And that completely makes sense, for example we have a "class" which is contains everything we can access user data, the class called User. We can access every variable in it, now it wouldn't really make sense to make it static because there can be more than one user, marking it as static would only really just not allow to have more user instances. That is a complex topic, we'll leave that for another lesson.
 
 Now void, what does void mean? Is it some portal to nothing? Well, kind of, but no, not really. `void` means that our main method will not return anything, that's all you need to know for now.
@@ -172,7 +184,8 @@ Now void, what does void mean? Is it some portal to nothing? Well, kind of, but 
 
 Inside our main method, there is this thing called `Console.WriteLine("Hello World!");`. As you might have guessed, this tells our console; hey console, print whatever is __between__ these two double apostrophes. Now will it actually do that? I'm not going to say anything because *it may or may not*. There's only one way for you to find out :eyes:
 
-<!-- TODO: Fill in the rest of the page -->
+## Running our code
+
 You can press `F5` to run our program and an external console should pop up and close immediately.
 
 ![Launching_Our_Program](/img/tutorials/csharp/00_introduction/launching_program_1.gif)
@@ -253,6 +266,8 @@ namespace learning_csharp
 
 /* Comments can also be written like this. */
 ```
+
+## Wrapping up
 
 And that's our first program!
 

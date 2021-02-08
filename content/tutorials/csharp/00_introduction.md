@@ -204,3 +204,53 @@ Now, when we run our program;
 
 It will only close when I press a key on to the console.
 
+That's great but our code will keep growing to a point where it's hard to tell what everything does, for this purpose, there are these things called "code comments". When we write something that isn't valid code, we get an error:
+
+![Error](/img/tutorials/csharp/00_introduction/error.png)
+
+So, to write a comment, there are two ways, the most basic one being putting to slashes (`//`) before our text. The comment continutes infinitely, it looks something like this:
+
+![Inline_Comment](/img/tutorials/csharp/00_introduction/inline_comment.png)
+
+Keep note that you don't need to space it out, I just did that for readability.
+
+Finally, another type of comment is made like `/* */` with anything between these two marked as a comment. They look like this:
+```csharp
+using System;
+
+namespace learning_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            Console.ReadKey(); /* Read a key from the console before exiting the program. */
+        }
+    }
+}
+```
+
+Now, for the next series, let's comment everything out so that we don't forget what each thing does:
+```csharp
+// Bring in the code so that we can use it.
+using System;
+
+// Declare a namespace.
+namespace learning_csharp
+{
+    // Declare a class object.
+    class Program
+    {
+        // Define the entry point of our program.
+        static void Main(string[] args) // The args is an array of arguments provided to our application when launched.
+        {
+            Console.WriteLine("Hello World!"); // Print hello world to the console.
+            Console.ReadKey(); // Read a key from the console before exiting the program
+        }
+    }
+}
+
+/* Comments can also be written like this. */
+```
+

@@ -254,3 +254,17 @@ namespace learning_csharp
 /* Comments can also be written like this. */
 ```
 
+And that's our first program!
+
+With that being said, I think it's been too long and you've spent some time setting this up, so we should wrap this up. I really hope i made it as clear as possible, hopefully this is everything you need to know before getting started.
+
+So before leaving, I'll be sometimes assigning some tasks to you so that you can test your one skills. I won't be checking it unless you want to show it to me (hit me up at my discord server at [discord/ANF-Studios](https://discord.gg/fKWpK7A) :wink:).
+
+Today's assignment for you is to change the text within the strings of the `Console.WriteLine();`. Try changing it, here are some examples:
+```csharp
+Console.WriteLine("I am some text being printed!");
+Console.WriteLine(42);
+Console.WriteLine();
+```
+
+Try and see them for yourself! Alright, see you!

@@ -95,6 +95,75 @@ After that's installed, once again, restart your pc just in case if you want to,
 
 Great! We have everything we need set up!
 
+Now let's move on to the fun part, open back up the VS Code window and click on the terminal and type in `dotnet new console`.
+
+Now a few things, if you do not see the terminal, press Ctrl + Shift + `.
+
+You can also press the new terminal button from Terminal -> New Terminal.
+
+![New_Terminal](/img/tutorials/csharp/00_introduction/new_terminal.png)
+
+Now that you've run that command, you should see this or a similar output:
+
+![dotNET_New_Output](/img/tutorials/csharp/00_introduction/dotnet_new_output.png)
+
+Now you will see a csproj file, a cs file and an obj folder. Considering that you have .NET installed and the extension is running, it will ask you to "Generate Assets", always press yes as you need those, they will be a time-saver so that you don't need to set the project up.
+
+![Generate_Assets](/img/tutorials/csharp/00_introduction/generate_assets.png)
+
+Now you will see some folder(s), notably the `.vscode` folder. That is responsible for telling VS Code how we want to run our application within VS Code.
+
+Now every setting is the nice, however there's this one config value I want to change, personally I like when our application is launched in a new window instead of the same one. So what I'll do is open up the `.vscode` folder by clicking on it in my explorer (in VS Code) and open up `launch.json`. Finally, this is how it looks, for me:
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/bin/Debug/net5.0/learning_csharp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
+```
+
+I want to change that `"console"`'s value from `internalConsole` to `externalTerminal`
+
+![External_Terminal](/img/tutorials/csharp/00_introduction/external_terminal.png)
+
+And that's it, we're all set up and we are reading to code! You can close `launch.json` and open up `Program.cs`. What you see is some basic code:
+```csharp
+using System;
+
+namespace learning_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+
 
 <!-- TODO: Fill in the rest of the page -->
 

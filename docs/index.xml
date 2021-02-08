@@ -8,7 +8,17 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://github.com/ANF/&#34;&gt;ANF&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 03 Feb 2021 09:32:38 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 15:45:18 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction into C# and setting everything up</title>
+      <link>https://anf.myst.rs/tutorials/csharp/00_introduction/</link>
+      <pubDate>Sun, 07 Feb 2021 15:45:18 -0500</pubDate>
+      
+      <guid>https://anf.myst.rs/tutorials/csharp/00_introduction/</guid>
+      <description>Introduction Oh, hello there! I think you&amp;rsquo;re interested in learning C# (pronounced as &amp;ldquo;See Sharp&amp;rdquo;). Well, you&amp;rsquo;re in luck because ANF is planning to make tutorials and write some tips on C#. For those of you who like to interact through video, no this series will most likely never be based on video. There shall be nothing but plain text to read. So I hope you like reading!
+Before we get into this, I want to give you a quick disclaimer that I am no C# professional and I am only really just going to teach you everything that I know.</description>
+    </item>
+    
     <item>
       <title>Null Reference Exception</title>
       <link>https://anf.myst.rs/tutorials/unity/nullref/</link>

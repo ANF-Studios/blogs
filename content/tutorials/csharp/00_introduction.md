@@ -173,4 +173,34 @@ Now void, what does void mean? Is it some portal to nothing? Well, kind of, but 
 Inside our main method, there is this thing called `Console.WriteLine("Hello World!");`. As you might have guessed, this tells our console; hey console, print whatever is __between__ these two double apostrophes. Now will it actually do that? I'm not going to say anything because *it may or may not*. There's only one way for you to find out :eyes:
 
 <!-- TODO: Fill in the rest of the page -->
+You can press `F5` to run our program and an external console should pop up and close immediately.
+
+![Launching_Our_Program](/img/tutorials/csharp/00_introduction/launching_program_1.gif)
+
+Well, why does it close?
+
+That's because we haven't told our program to exit after it reads some key, or in other words gets some input.
+
+To do so, we will write `Console.ReadKey();` in the next line like so:
+```csharp
+using System;
+
+namespace learning_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+Now, when we run our program;
+
+![Launching_Our_Program_Again](/img/tutorials/csharp/00_introduction/launching_program_2.gif)
+
+It will only close when I press a key on to the console.
 

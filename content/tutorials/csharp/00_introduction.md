@@ -75,6 +75,26 @@ You can have a look at some extensions that you can download yourselves by press
 
 ![VSCode_C#_Extension](/img/tutorials/csharp/00_introduction/install_csharp_extension.png)
 
+Now that we have the C# extension, *the extension* (not VS Code itself) will install some tools that are required for debugging. While that is working, you also need to some how convert your text-based "code" into some binary form to run it, that's really important because that's just "[intellisense](https://en.wikipedia.org/wiki/Intelligent_code_completion)" you have and that doesn't have much worth without the actual tool to convert it, it's called the C# "compiler", that complies code and it's called .NET (pronounced as "dot net"). And yes, you also need to install dotNET to build tools.
+
+Now if you're wondering what that .NET Framework thing-y was when updating Windows *specifically*, well, that's the "runtime" framework that *only* allows you to run dotNET Framework applications. But what we're installing is called dotNET, literally just dotNET. It's nothing more.
+
+Before we head over, I want to explain to you about .NET Framework, .NET Core and dotNET.
+
+- .NET Framework is a runtime framework that runs on Windows and is a bit older.
+- .NET Core is a newer version of .NET Framework and runs better because the previous mistakes, or rather design flaws were now fixed but it does not really matter if you ask me. dotNET Core runs on all Windows, MacOS and Linux.
+- .NET is so far, at the time of writing this, the newest framework which I highly recommend for you to adopt it and it does run on all Windows, MacOS and Linux.
+
+Alright, let's get to installing it! Firstly, head over to [dotNET.Microsoft/Download](https://dotnet.microsoft.com/download) and select .NET 5.0 - or whatever is the latest **recommended** specification.
+
+![dotNET](/img/tutorials/csharp/00_introduction/dotnet.png)
+
+I don't know how the screen looks like on 32 bit systems, but if you are on one, **DO NOT** install the 64 bit version, it would not work. And make sure to install the "SDK" and not the runtime, you don't need that. This is because the SDK packs the runtime within it and also the development tools.
+
+After that's installed, once again, restart your pc just in case if you want to, I highly recommend it however just to stay safe. If it does ask you to, then you really have no option at all.
+
+Great! We have everything we need set up!
+
 
 <!-- TODO: Fill in the rest of the page -->
 

@@ -164,6 +164,13 @@ namespace learning_csharp
 }
 ```
 
+These are only a few lines however, it can be complex to understand for some of you. Forget everything in there, just focus on `static void Main(string[] args)`. What that means is that `Main` is the main method meaning it tells our program where to start running, or rather executing. Without the main method, programs don't run as they don't know where to start. About static, well that means that there can't be more than one instance of that Main method, in programming, you can create more than one objects. And that completely makes sense, for example we have a "class" which is contains everything we can access user data, the class called User. We can access every variable in it, now it wouldn't really make sense to make it static because there can be more than one user, marking it as static would only really just not allow to have more user instances. That is a complex topic, we'll leave that for another lesson.
+
+Now void, what does void mean? Is it some portal to nothing? Well, kind of, but no, not really. `void` means that our main method will not return anything, that's all you need to know for now.
+
+`string[] args` is the argument of the main method. When we launch any application in our operating system, it may (or not) be launched with a few arguments, those arguments are stored there. You do not need to have it, you can freely remove `string[] args` though keep note that you do need the brackets and you can change `args` to *almost anything* you want to name it unlike the Main method.
+
+Inside our main method, there is this thing called `Console.WriteLine("Hello World!");`. As you might have guessed, this tells our console; hey console, print whatever is __between__ these two double apostrophes. Now will it actually do that? I'm not going to say anything because *it may or may not*. There's only one way for you to find out :eyes:
 
 <!-- TODO: Fill in the rest of the page -->
 

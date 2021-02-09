@@ -7,7 +7,7 @@ copyright: >
 description: "Test"
 publishDir: "docs"
 enableEmoji: true
-colorScheme: "Dark"
+colorScheme: Dark
 
 menu:
   main:

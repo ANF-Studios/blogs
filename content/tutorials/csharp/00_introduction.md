@@ -75,7 +75,7 @@ Now that you've opened your preferred folder within VS Code, you should see some
 
 ![VSCode](/img/tutorials/csharp/00_introduction/vscode.png)
 
-Now yours will be most likely different from mine, don't worry about that. I'll explain the reason behind that; VS Code is highly customizable and there are these things called "extensions" which are like "Minecraft Addons" for those of your Minecraft players. There are almost no limits into how you want VS Code to look like, heck you can even change the colors of the interface.
+Now yours will be most likely different from mine, don't worry about that. I'll explain the reason behind that; VS Code is highly customizable and there are these things called "extensions" which are like "Minecraft Addons" for those of you Minecraft players. There are almost no limits into how you want VS Code to look like, heck you can even change the colors of the interface.
 
 You can have a look at some extensions that you can download yourselves by pressing `Ctrl` + `Shift` + `S`. But for now, we will be installing only one extension, the C# extension which enables intellisense for us, so in the search box, type in "C#" and install the very first extension you see named nothing but `C#` and is published by Microsoft.
 

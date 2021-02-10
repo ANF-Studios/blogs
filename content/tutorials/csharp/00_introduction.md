@@ -3,7 +3,7 @@ title: "Introduction into C# and setting everything up"
 date: 2021-02-07T15:45:18-05:00
 draft: false
 authors: ["ANF-Studios"]
-categories: ["Programming"]
+categories: ["C# Series"]
 tags: []
 series: "CSharp"
 ---

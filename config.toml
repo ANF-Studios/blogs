@@ -130,7 +130,7 @@ theme = "loveit"
     [params.home.profile]
       enable = true
       # URL of avatar shown in home page
-      avatarURL = "/logo.png"
+      avatarURL = "logo.png"
       #  title shown in home page (HTML format is supported)
       title = "ANF Organization"
       # subtitle shown in home page

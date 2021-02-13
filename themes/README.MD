@@ -1,1 +1,1 @@
-This site uses the theme `eureka`.
+This site uses the [`LoveIt`](https://github.com/dillonzq/LoveIt/) theme.

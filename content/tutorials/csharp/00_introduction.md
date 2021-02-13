@@ -8,6 +8,19 @@ tags: []
 series: "CSharp"
 ---
 
+#### Index:
+* [A general introduction and about this seires](#introduction)
+* [A basic overview of C#](#introduction-into-c)
+* [Getting our toolsets](#setting-up-our-code-editor)
+* [Setting up our compiler](#installing-dotnet)
+* [Making our first project](#creating-our-project)
+* [What does this code of ours so far even do?](#what-does-our-program-mean)
+* [Making our code run](#running-our-code)
+* [Wrapping up our first article](#wrapping-up)
+    * [A task for you to complete](#homework)
+
+-----------------------------------------------------------------------------
+
 ## Introduction
 
 Oh, hello there!
@@ -272,6 +285,8 @@ namespace learning_csharp
 And that's our first program!
 
 With that being said, I think it's been too long and you've spent some time setting this up, so we should wrap this up. I really hope I made it as clear as possible, hopefully, this is everything you need to know before getting started.
+
+### Homework
 
 So before leaving, I'll be sometimes assigning some tasks to you so that you can test your one skills. I won't be checking it unless you want to show it to me (hit me up at my discord server at [discord/ANF-Studios](https://discord.gg/fKWpK7A) :wink:).
 

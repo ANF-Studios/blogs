@@ -1,5 +1,5 @@
 ---
-title: "Null Reference Exception"
+title: "How to deal with Null Reference Exception"
 date: 2021-02-03T09:32:38-05:00
 draft: false
 authors: ["ANF-Studios"]

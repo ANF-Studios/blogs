@@ -434,7 +434,7 @@ theme = "loveit"
 
 # Author config
 [author]
-  name = ""
+  name = "ANF"
   email = "anforg@outlook.com"
   link = "https://github.com/ANF"
 

@@ -8,6 +8,10 @@ publishDir = "docs"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "loveit"
+# Whether to enable git info
+enableGitInfo = true
+# Whether to use emoji code
+enableEmoji = true
 
 [params]
   #  LoveIt theme version
@@ -20,8 +24,6 @@ theme = "loveit"
   defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/ANF/"
-  # Weather to enable Git info
-  enableGitInfo = true
   #  which hash function used for SRI, when empty, no SRI is used
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""

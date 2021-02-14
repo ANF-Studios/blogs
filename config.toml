@@ -1,0 +1,134 @@
+baseURL = "https://anf.myst.rs/"
+languageCode = "en-us"
+title = "ANF Blogs"
+theme = "LoveIt-0.2.10"
+enableRobotsTXT = true
+enableEmoji = true
+publishDir = "docs"
+
+[permalinks]
+	blog = "/:sections/:slug"
+	categories = "/blog/categories/:slug"
+	tags = "/blog/tags/:slug"
+
+[params]
+	version = "0.2.X"
+	dateFormat = "02.01.2006"
+	defaultTheme = "dark"
+	description = "ANF is an open source organization that focuses on creating unique open source innovations."
+	images = [ "/logo.png" ]
+
+	[params.search]
+		enable = false # False becaue not needed, may change.
+		# type of search engine ("lunr", "algolia")
+		type = "aloglia"
+		# max index length of the chunked content
+		contentLength = 4000
+		# placeholder of the search bar
+		placeholder = "Search articles"
+		# LoveIt NEW | 0.2.1 max number of results length
+		maxResultLength = 10
+		# LoveIt NEW | 0.2.3 snippet length of the result
+		snippetLength = 30
+		# LoveIt NEW | 0.2.1 HTML tag name of the highlight part in results
+		highlightTag = "em"
+		# LoveIt NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
+		absoluteURL = false
+		[params.search.algolia]
+			index = ""
+			appID = ""
+			searchKey = ""
+
+	[params.app]
+		title = "ANF Blogs"
+		noFavicon = false
+		svgFavicon = "/logo.png"
+
+	[params.header.title]
+		name = "ANF Blogs"
+		typeit = true
+
+	[params.footer]
+		hugo = false
+
+	[params.page]
+		lightgallery = true
+
+		[params.page.toc]
+			auto = false
+
+		[params.page.code]
+			copy = true
+			lineNumbersInTable = true
+
+		[params.page.share]
+			enable = true
+			Twitter = true
+			Facebook = true
+			Whatsapp = true
+			HackerNews = true
+			Reddit = true
+			Myspace = true
+			Tumblr = true
+
+		[params.page.library]
+			[params.page.library.js]
+				jQuery = "https://code.jquery.com/jquery-3.5.1.min.js"
+				spoiler = "js/spoiler.js"
+
+	[params.home.profile]
+		enable = true
+		social = true
+		avatarURL = "/logo.png"
+		title = "ANF Studios"
+		subtitle = "<p><strong>ANF Organization</strong> focuses on creating unique innovations."
+	[params.home.posts]
+		enable = false
+	[params.social]
+		GitHub = "ANF"
+		Youtubecustom = "ANFStudios"
+		Email = "anforg@outlook.com"
+
+	[params.seo]
+		image = "/logo.png"
+		thumbnailUrl = "/logo.png"
+
+[author]
+	name = "ANF"
+	email = "anforg@outlook.com"
+	link = "https://github.com/ANF"
+
+
+[menu]
+	[[menu.main]]
+	identifier = "home"
+	name = "Home"
+	url = "/"
+	title = "Home"
+	weight = 1
+	[[menu.main]]
+	identifier = "blog"
+	name = "Blog"
+	url = "/blog/"
+	title = "Blog"
+	weight = 2
+	[[menu.main]]
+	identifier = "projects"
+	name = "Projects"
+	url = "/projects/"
+	title = "Projects"
+	weight = 3
+
+[markup]
+	[markup.highlight]
+		codeFences = true
+		lineNos = true
+		noClasses = false
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
+[sitemap]
+	changefreq = "weekly"
+	filename = "sitemap.xml"
+	priority = 0.5

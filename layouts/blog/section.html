@@ -1,0 +1,15 @@
+{{- define "title" }}
+    {{- .Params.Title | default (T .Section) | default .Section }}
+{{- end -}}
+
+{{- define "content" -}}
+    <div class="page archive">
+        {{- /* Title */ -}}
+        <h2 class="single-title animated pulse faster">{{- .Params.Header | default "Blog" -}}</h2>
+
+        {{- if .Content -}}
+            {{- dict "Content" .Content "Ruby" .Params.ruby "Fraction" .Params.fraction "Fontawesome" .Params.fontawesome | partial "function/content.html" | safeHTML -}}
+        {{- end -}}
+        {{- partial "posts-list.html" . -}}
+    </div>
+{{- end -}}

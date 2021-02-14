@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "C:/Users/ANF-Studios/Projects/tehgm.github.io-master",
+	"sourceRoot": "C:/Users/ANF-Studios/Projects/anf.github.io/blogs",
 	"sources": [
 		"themes/LoveIt-0.2.10/assets/css/style.scss",
 		"themes/LoveIt-0.2.10/assets/css/_variables.scss",

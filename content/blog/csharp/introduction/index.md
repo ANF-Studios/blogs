@@ -8,7 +8,7 @@ draft: false
 #- C#
 aliases: 
 - /blog/csharp/introduction
-featuredImage: "thumb.png"
+featuredImage: "introduction_thumb.png"
 ---
 
 <!--more-->

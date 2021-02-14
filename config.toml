@@ -16,7 +16,7 @@ publishDir = "docs"
 	dateFormat = "02.01.2006"
 	defaultTheme = "dark"
 	description = "ANF is an open source organization that focuses on creating unique open source innovations."
-	images = [ "/logo.png" ]
+	#images = [ "/logo.png" ]
 
 	[params.search]
 		enable = false # False becaue not needed, may change.

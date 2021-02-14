@@ -1,0 +1,12 @@
+{{- define "title" }}
+    {{- T "pageNotFound" | printf "404 %v" }} - {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+    <div class="page" id="content-404">
+        <p class="error-text">
+            {{- T "pageNotFoundText" -}}
+            <div><a title="{{ T `back` }}" onclick="event.preventDefault(); window.history.back(); return false;">Go back <i class="fas fa-arrow-alt-circle-left fa-fw"></i></a></div>
+        </p>
+    </div>
+{{- end -}}

@@ -1,1 +1,0 @@
-This site uses the [`LoveIt`](https://github.com/dillonzq/LoveIt/) theme.

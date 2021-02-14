@@ -1,3 +1,16 @@
+# Created by ANF Org
+
+# VS Code's workspace file
+*.code-workspace
+
+# End of ignore
+
+
+
+
+
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/hugo
 # Edit at https://www.toptal.com/developers/gitignore?templates=hugo
 

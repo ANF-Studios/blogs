@@ -4,8 +4,8 @@ description: "Hey there! This is the very first article of this series in which 
 slug: introduction
 date: 2021-02-13T12:02:32-05:00
 draft: false
-categories:
-- CSharp
+#categories:
+#- C#
 aliases: 
 - /blog/csharp/introduction
 featuredImage: "thumb.png"

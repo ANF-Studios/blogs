@@ -4,6 +4,7 @@ title = "ANF Blogs"
 theme = "LoveIt-0.2.10"
 enableRobotsTXT = true
 enableEmoji = true
+publishDir = "docs"
 
 [permalinks]
 	blog = "/:sections/:slug"

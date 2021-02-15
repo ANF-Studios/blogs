@@ -6,8 +6,8 @@ date: 2021-02-13T12:02:32-05:00
 draft: false
 categories:
 - Unity
-aliases: 
-- /blog/nullreferenceexception
+#aliases: 
+#- /blog/nullreferenceexception
 featuredImage: "" # nullref_thumb.png
 ---
 

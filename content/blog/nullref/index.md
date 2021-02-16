@@ -4,8 +4,8 @@ description: "Here's a small article on how to fix null reference exception in U
 slug: nullref
 date: 2021-02-13T12:02:32-05:00
 draft: false
-#categories:
-#- C#
+categories:
+- Other
 aliases: 
 - /blog/nullreferenceexception
 featuredImage: "" # nullref_thumb.png

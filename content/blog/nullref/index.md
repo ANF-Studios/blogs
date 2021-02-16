@@ -34,7 +34,7 @@ public class MyScript : MonoBehaviour
 }
 ```
 
-![Null Reference Exception](/img/tutorials/unity/nullref/exception.png)
+![Null Reference Exception](exception.png)
 
 This is the output, nothing is really changed and our code does not work. Passionate beginners (perhaps ones like you, that could be one of the reasons you're here because you're stuck and some senior developer directed you here) often make this mistake without realizing, though this is nothing to be worried about.
 
@@ -49,7 +49,7 @@ Debug.Log(myCube == null);
 
 This would print `true` if the **variable is null** else it would print `false`.
 
-![Is it null?](/img/tutorials/unity/nullref/null_variable_1.png)
+![Is it null?](null_variable_1.png)
 
 Granted that this works perfectly fine and there's nothing really wrong with it, but personally, I like to prefer readability, so a good way of doing this would be to use the [`?:`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator) operator.
 
@@ -60,7 +60,7 @@ Debug.Log(myCube == null ? "Game object myCube is null" : "Game object myCube is
 
 What this'll do is print the first statement if `myCube == null` i.e, the variable is null and print the next one (instead of the first one) if it is not null. It's simple and makes it really readable:
 
-![Is it null?](/img/tutorials/unity/nullref/null_variable_2.png)
+![Is it null?](null_variable_2.png)
 
 
 Well, that's cool and all, but like.. I came here to know how to fix this, right? Tell me how to fix it. Gotcha, now that we've actually covered all the basic debugging ways, let's get to know how to fix that.
@@ -75,13 +75,13 @@ There are different cases of this, I'll be showing you two of those ways, firstl
 Unity serializes only public objects, so if you really need this `myCube` variable to be private but still be serialized, you can use this SerializeField property. I'll save more of this for another blog, but for now, I recommend reading [UnityDocs/SerializeField](https://docs.unity3d.com/ScriptReference/SerializeField.html).
 
 Anyhow, now you'll notice this in your inspector when you look at it:
-![inspector](/img/tutorials/unity/nullref/inspector_script_field.png)
+![inspector](inspector_script_field.png)
 
 Now just drag and drop the cube object in there (or just click on the plus button to assign it) like so:
-![Assign myCube](/img/tutorials/unity/nullref/assign.gif)
+![Assign myCube](assign.gif)
 
 What we've done here is that we've "cached" our object - this is really great for runtime performance. And now, when we run our code, we should see that the null reference exception is now gone:
-![Fixed results](/img/tutorials/unity/nullref/exception_fixed.png)
+![Fixed results](exception_fixed.png)
 
 Quick side note, you can also create a new object instance, that'll also work out fine, it just at its core depends on what you really want to do.
 

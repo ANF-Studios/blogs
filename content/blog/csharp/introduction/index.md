@@ -9,6 +9,7 @@ categories:
 aliases: 
 - /blog/csharp/introduction
 featuredImage: "introduction_thumb.png"
+author: "ANF-Studios"
 ---
 
 <!--more-->

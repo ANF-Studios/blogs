@@ -2,7 +2,7 @@
 title: "How to deal with Null Reference Exception"
 description: "Here's a small article on how to fix null reference exception in Unity."
 slug: nullref
-date: 2021-02-13T12:02:32-05:00
+date: 2021-02-03T09:32:38-05:00
 draft: false
 categories:
 - Other

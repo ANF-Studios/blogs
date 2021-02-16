@@ -40,3 +40,12 @@ We might even write a library and possibly publish it there, no promises though 
 
 Moreover, the standard library (a set of functions provided by C# developers) are so so well built, I, myself am impressed.
 
+### How C# works
+Finally, I wanted to talk about how C# works. Programming languages are a way to express, not to the computer or the compiler, but to another person, what the it is supposed to do. I think of programming as a way of art to express yourself.
+
+There are different kinds of languages, there are tonnes of languages that offer unique features. For example, C++ is not a managed language, but hol', what even is a managed language?
+
+That is what I am going to explain to you right now; programming languages are powerful, there are low level languages, and there are high level languages. Previously, we discussed how C# is a modern language which makes it high level. And low level languages where you have a bit more of boilerplate code. But you're probably asking; why do these even exist? Well, simple: Because they offer memory control and are generally faster, by which I mean they operate code quicker which is vital for applications that need those.
+
+But wait a minute? Doesn't that mean C# gets slow and heavy? Well.. not exactly. It depends on the application itself and the code that is running behind the scenes. C# isn't really slow, I am satisfied with it.
+

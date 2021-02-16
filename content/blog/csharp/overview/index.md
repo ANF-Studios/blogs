@@ -31,3 +31,12 @@ When Sun introduced Java in 1995, Microsoft saw the potential in the language an
 
 Rather than switching to Sun’s JVM, and thus giving Sun significant leverage in the Windows world, Microsoft decided to "out Sun" Sun, by introducing their own language and platform, and effectively killing Java on Windows. They brought renowned programming languages designer Anders Hejlsberg on board, who already had experience mutating and improving existing programming languages, and gave him the task to create a "better Java" (not officially, but in practice). Thus C# and the .NET framework were born.
 
+### Why I love C#
+C# is a great language. I personally really like it, I hope you do too. The reason for that is that Microsoft has put a lot of efforts into it and it works well. The ecosystem and ease itself convinces me to use C# over another language.
+
+There's even an amazing and powerful package manager not only for C#, but for the entire .NET ecosystem and its languages (yes, there are other languages based on dotNET), called [nuget](https://nuget.org).
+
+We might even write a library and possibly publish it there, no promises though :eyes:
+
+Moreover, the standard library (a set of functions provided by C# developers) are so so well built, I, myself am impressed.
+

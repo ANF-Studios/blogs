@@ -9,6 +9,7 @@ draft: false
 aliases: 
 - /blog/nullreferenceexception
 featuredImage: "" # nullref_thumb.png
+author: "ANF-Studios"
 ---
 
 <!--more-->

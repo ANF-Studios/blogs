@@ -49,3 +49,96 @@ That is what I am going to explain to you right now; programming languages are p
 
 But wait a minute? Doesn't that mean C# gets slow and heavy? Well.. not exactly. It depends on the application itself and the code that is running behind the scenes. C# isn't really slow, I am satisfied with it.
 
+## Exploring C#
+
+I think I've talked a lot about that and you're probably bored if you've read that, but don't you worry. Onto the fun parts!
+
+Firstly, I wanted to discuss about you from a general point of view, what a programming language should contain, let's see.. data/values? colors? green stuff?
+
+Well, it does have that, sort of. Let's start with the most basic item; values.
+
+"Values" is just a term I used for ease to give you an idea of what they are. The proper term for those are "variables" and that's what you should be using.
+
+So variables can be really simple and really complex. They are one of the most basic parts of your program.
+
+This is our initial code:
+
+```csharp
+using System;
+
+namespace learning_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Reads a key from the console before exiting.
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+Let's suppose that we wanted to make a game that runs on our console. Firstly, we would want to store the name of the user so that we can use it later, right? So to store some text that we read from the console, there is a data type called `string`. Let's jump in and take a look at how can we "declare" a string and use it.
+
+```csharp
+using System;
+
+namespace learning_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name; // Variable declaration.
+
+            // Reads a key from the console before exiting.
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+Congratulations! You've made your very first variable. Let's see that specific part: `string name;`. "string name;", hmm... what does that mean? Well, string is the data type we declare our variable in and "name" is the name of our variable. You can name it *almost* anything you'd like to, but I'll keep it whatever it is.
+
+So how do we use this variable? Is there some way to read a sentence instead of a character from the console? Of course there is! As mentioned earlier, I love C# for its incredible library and feature support. The syntax for that is `Console.ReadLine();`.
+
+This is how it goes:
+```csharp
+using System;
+
+namespace learning_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name; // Variable declaration.
+            Console.ReadLine();
+
+            // Reads a key from the console before exiting.
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+And now, when we run our program, the only thing that would happen is that it would read a sentence until we press `Enter` and then read a key to finally exit.
+
+But hey.. we haven't discussed about this yellow warning. Why does it say that?
+
+![Unused_Variable](unused_variable.png)
+
+Well first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we're going to use it later on.
+
+Another thing is that a lot of people don't read the error and just "freak out" as if it would never get solved. A simple trick to solve almost any error is to
+1. Read what the error says and understand what it means.
+2. Google (or whatever search engine you prefer to use) up that error and find sources on what it means.
+3. Try to understand what it means rather than how to fix it.
+
+Anyhow, we need to somehow bind the name variable to `Console.ReadLine();`. We do so by "assigning" variables.
+
+In this case, we'll do it like so: `string name = Console.ReadLine();`. It's simple, isn't it? What this does is that it reads a line from the console and assigns that value to our name variable.
+
+
+<!-- TODO: Complete the rest of the parts. -->

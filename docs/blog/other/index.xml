@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Other blogs - Category - ANF Blogs</title>
+        <link>https://anf.myst.rs/blog/other/</link>
+        <description>Other blogs - Category - ANF Blogs</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>anforg@outlook.com (ANF)</managingEditor>
+            <webMaster>anforg@outlook.com (ANF)</webMaster><lastBuildDate>Wed, 03 Feb 2021 09:32:38 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/blog/other/" rel="self" type="application/rss+xml" /><item>
+    <title>How to deal with Null Reference Exception</title>
+    <link>https://anf.myst.rs/blog/nullref/</link>
+    <pubDate>Wed, 03 Feb 2021 09:32:38 -0500</pubDate>
+    <author>Author</author>
+    <guid>https://anf.myst.rs/blog/nullref/</guid>
+    <description><![CDATA[Here's a small article on how to fix null reference exception in Unity.]]></description>
+</item></channel>
+</rss>

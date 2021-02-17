@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>C# Series - ANF Blogs - Category - ANF Blogs</title>
+        <title>All blog - ANF Blogs</title>
         <link>https://anf.myst.rs/blog/csharp/</link>
-        <description>C# Series - ANF Blogs - Category - ANF Blogs</description>
+        <description>All blog | ANF Blogs</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>anforg@outlook.com (ANF)</managingEditor>
             <webMaster>anforg@outlook.com (ANF)</webMaster><lastBuildDate>Sat, 13 Feb 2021 12:02:32 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/blog/csharp/" rel="self" type="application/rss+xml" /><item>
     <title>An introduction into programming and writing our first lines of code</title>

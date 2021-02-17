@@ -14,10 +14,10 @@ author: "ANF-Studios"
 
 <!--more-->
 
-As a beginner, at some point or another, you must have encountered null reference exception while developing your application and, for some people it's really hard to understand how to fix it (mainly because, in my opinion, some game devs do not have prior knowledge of C#). So today, you'll be learning how to fix it, I'll try to simplify it as much as possible. So first of all, I want to start off with null reference exceptions because well, it's a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through about what this "Null Reference Exception" is and how to fix it.
+As a beginner, at some point or another, you must have encountered null reference exception while developing your application and, for some people, it's really hard to understand how to fix it (mainly because, in my opinion, some game devs do not have prior knowledge of C#). So today, you'll be learning how to fix it, I'll try to simplify it as much as possible. So first of all, I want to start off with null reference exceptions because well, it's a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through what this "Null Reference Exception" is and how to fix it.
 
 So, why does null ref (short for null reference exception) even happen?
-Well, the simplest answer for this could be that C# throws this exception when one of your variable is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null) which basically means
+Well, the simplest answer for this could be that C# throws this exception when one of your variables is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null) which basically means
 > a literal that represents a null reference, one that does not refer to any object. null is the default value of reference-type variables.
 
 Is it an assigned value or not? Well, yes but actually no.
@@ -59,16 +59,14 @@ It should look something like this:
 Debug.Log(myCube == null ? "Game object myCube is null" : "Game object myCube is not null");
 ```
 
-What this'll do is print the first statement if `myCube == null` i.e, the variable is null and print the next one (instead of the first one) if it is not null. It's simple and makes it really readable:
+What this will do is print the first statement if `myCube == null` i.e, the variable is null, and print the next one (instead of the first one) if it is not null. It's simple and makes it really readable:
 
 ![Is it null?](null_variable_2.png)
 
 
 Well, that's cool and all, but like.. I came here to know how to fix this, right? Tell me how to fix it. Gotcha, now that we've actually covered all the basic debugging ways, let's get to know how to fix that.
 
-So, what do we first thing when we hear null ref? Keeping in view the defenition of null; a vairable not assigned, right? So we need to somehow assign it a value. In this case, it's a game object, a unity game object - so we will assign it our object to fix that error.
-
-There are different cases of this, I'll be showing you two of those ways, firstly, we can try to cache our `myCube` object. But for that, I'll create a private Serialized object:
+So, what do we first thing when we hear null ref? Keeping in view the definition of null; a variable not assigned, right? So we need to somehow assign it a value. In this case, it's a game object, a unity game object - so we will assign it our object to fix that error. I'll create a private Serialized object:
 ```cs
 [SerializeField] private GameObject myCube;
 ```
@@ -103,6 +101,6 @@ public class MyScript : MonoBehaviour
 ```
 We have successfully set our object to inactive, cheers :tada:
 
-So now we can access all these components being assured that we have have it working. There are other ways to access it, we're not going to get into those today however, but that's pretty much it. I really hope I could clear everything out, if you still have confusions or questions; I am often on discord (don't worry, if I'm not available, others are really helpful) so you can hit me up at [discord/ANF-Studios](https://discord.gg/fKWpK7A) :wink:
+So now we can access all these components being assured that we have it working. There are other ways to access it, we're not going to get into those today, however, but that's pretty much it. I really hope I could clear everything out if you still have confusions or questions; I am often on discord (don't worry, if I'm not available, others are really helpful) so you can hit me up at [discord/ANF-Studios](https://discord.gg/fKWpK7A) :wink:
 
 Other useful servers are [discord/Unity](https://discord.gg/Unity) and [discord/Brackeys](https://discord.gg/Brackeys).

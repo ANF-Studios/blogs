@@ -16,6 +16,8 @@ author: "ANF-Studios"
 
 As a beginner, at some point or another, you must have encountered null reference exception while developing your application and, for some people, it's really hard to understand how to fix it (mainly because, in my opinion, some game devs do not have prior knowledge of C#). So today, you'll be learning how to fix it, I'll try to simplify it as much as possible. So first of all, I want to start off with null reference exceptions because well, it's a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through what this "Null Reference Exception" is and how to fix it.
 
+## Understanding null ref
+
 So, why does null ref (short for null reference exception) even happen?
 Well, the simplest answer for this could be that C# throws this exception when one of your variables is [null](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null) which basically means
 > a literal that represents a null reference, one that does not refer to any object. null is the default value of reference-type variables.
@@ -36,6 +38,8 @@ public class MyScript : MonoBehaviour
 ```
 
 ![Null Reference Exception](exception.png)
+
+## Debugging 101
 
 This is the output, nothing is really changed and our code does not work. Passionate beginners (perhaps ones like you, that could be one of the reasons you're here because you're stuck and some senior developer directed you here) often make this mistake without realizing, though this is nothing to be worried about.
 
@@ -63,6 +67,7 @@ What this will do is print the first statement if `myCube == null` i.e, the vari
 
 ![Is it null?](null_variable_2.png)
 
+## Fixing it
 
 Well, that's cool and all, but like.. I came here to know how to fix this, right? Tell me how to fix it. Gotcha, now that we've actually covered all the basic debugging ways, let's get to know how to fix that.
 
@@ -100,6 +105,8 @@ public class MyScript : MonoBehaviour
 }
 ```
 We have successfully set our object to inactive, cheers :tada:
+
+## Conclusion
 
 So now we can access all these components being assured that we have it working. There are other ways to access it, we're not going to get into those today, however, but that's pretty much it. I really hope I could clear everything out if you still have confusions or questions; I am often on discord (don't worry, if I'm not available, others are really helpful) so you can hit me up at [discord/ANF-Studios](https://discord.gg/fKWpK7A) :wink:
 

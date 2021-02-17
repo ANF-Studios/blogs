@@ -22,7 +22,7 @@ Well, the simplest answer for this could be that C# throws this exception when o
 
 Is it an assigned value or not? Well, yes but actually no.
 
-Let me break this down for you, your variable is allocated in memory i.e, it is stored somewhere in your RAM. And, when your un some function to access it, say some Unity function like [SetActive](https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html) which sets a game object in your scene active or inactive (inactive means that it won't function but it still exists):
+Let me break this down for you, your variable is allocated in memory i.e, it is stored somewhere in your RAM. And, when you want to access it using some Unity function like [SetActive](https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html) which sets a game object in your scene active or inactive (inactive means that it won't function but it still exists):
 ```cs
 using UnityEngine;
 

@@ -24,7 +24,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/anf.myst.rs\/blog\/nullref\/"
-        },"image": ["https:\/\/anf.myst.rs\/logo.png"],"genre": "blog","wordcount":  1007 ,
+        },"image": ["https:\/\/anf.myst.rs\/logo.png"],"genre": "blog","wordcount":  1005 ,
         "url": "https:\/\/anf.myst.rs\/blog\/nullref\/","datePublished": "2021-02-03T09:32:38-05:00","dateModified": "2021-02-03T09:32:38-05:00","publisher": {
             "@type": "Organization",
             "name": "ANF-Studios"},"author": {
@@ -74,7 +74,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">How to deal with Null Reference Exception</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/ANF" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>ANF-Studios</a></span>&nbsp;<span class="post-category">included in <a href="/blog/other/"><i class="far fa-folder fa-fw"></i>Other</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="03.02.2021">03.02.2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1007 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="03.02.2021">03.02.2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1005 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;5 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -89,7 +89,7 @@ Well, the simplest answer for this could be that C# throws this exception when o
 <p>a literal that represents a null reference, one that does not refer to any object. null is the default value of reference-type variables.</p>
 </blockquote>
 <p>Is it an assigned value or not? Well, yes but actually no.</p>
-<p>Let me break this down for you, your variable is allocated in memory i.e, it is stored somewhere in your RAM. And, when your un some function to access it, say some Unity function like <a href="https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html" target="_blank" rel="noopener noreffer">SetActive</a> which sets a game object in your scene active or inactive (inactive means that it won&rsquo;t function but it still exists):</p>
+<p>Let me break this down for you, your variable is allocated in memory i.e, it is stored somewhere in your RAM. And, when you want to access it using some Unity function like <a href="https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html" target="_blank" rel="noopener noreffer">SetActive</a> which sets a game object in your scene active or inactive (inactive means that it won&rsquo;t function but it still exists):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1

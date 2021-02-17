@@ -14,6 +14,10 @@ author: "ANF-Studios"
 
 <!--more-->
 
+{{<admonition info "Meant for Unity" true>}}
+This blog is specifically meant for Unity Engine. However, this will also apply to other frameworks that encounter Null Reference Exception in C#. This is because, at the end of the day, it is C# and this is a C# thing, not a Unity thing.
+{{</admonition>}}
+
 As a beginner, at some point or another, you must have encountered null reference exception while developing your application and, for some people, it's really hard to understand how to fix it (mainly because, in my opinion, some game devs do not have prior knowledge of C#). So today, you'll be learning how to fix it, I'll try to simplify it as much as possible. So first of all, I want to start off with null reference exceptions because well, it's a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through what this "Null Reference Exception" is and how to fix it.
 
 ## Understanding null ref
@@ -87,7 +91,9 @@ Now just drag and drop the cube object in there (or just click on the plus butto
 What we've done here is that we've "cached" our object - this is really great for runtime performance. And now, when we run our code, we should see that the null reference exception is now gone:
 ![Fixed results](exception_fixed.png)
 
-Quick side note, you can also create a new object instance, that'll also work out fine, it just at its core depends on what you really want to do.
+{{<admonition tip "You can also create a game object instance" false>}}
+You can also create a new object instance, that'll also work out fine, it just at its core depends on what you really want to do.
+{{</admonition>}}
 
 Now if we want to access the SetActive property, we're going to need to access it. Which we can now do because we have the game object. Now, when we'll run this code, we won't see any errors - so far, you're code should look like this (that is if, you're following this tutorial in a sandbox playground project):
 ```cs

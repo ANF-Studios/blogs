@@ -24,7 +24,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/anf.myst.rs\/blog\/nullref\/"
-        },"image": ["https:\/\/anf.myst.rs\/logo.png"],"genre": "blog","wordcount":  1005 ,
+        },"image": ["https:\/\/anf.myst.rs\/logo.png"],"genre": "blog","wordcount":  1066 ,
         "url": "https:\/\/anf.myst.rs\/blog\/nullref\/","datePublished": "2021-02-03T09:32:38-05:00","dateModified": "2021-02-03T09:32:38-05:00","publisher": {
             "@type": "Organization",
             "name": "ANF-Studios"},"author": {
@@ -74,15 +74,31 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">How to deal with Null Reference Exception</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/ANF" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>ANF-Studios</a></span>&nbsp;<span class="post-category">included in <a href="/blog/other/"><i class="far fa-folder fa-fw"></i>Other</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="03.02.2021">03.02.2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1005 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;5 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="03.02.2021">03.02.2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1066 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;6 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><p>As a beginner, at some point or another, you must have encountered null reference exception while developing your application and, for some people, it&rsquo;s really hard to understand how to fix it (mainly because, in my opinion, some game devs do not have prior knowledge of C#). So today, you&rsquo;ll be learning how to fix it, I&rsquo;ll try to simplify it as much as possible. So first of all, I want to start off with null reference exceptions because well, it&rsquo;s a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through what this &ldquo;Null Reference Exception&rdquo; is and how to fix it.</p>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#understanding-null-ref">Understanding null ref</a></li>
+    <li><a href="#debugging-101">Debugging 101</a></li>
+    <li><a href="#fixing-it">Fixing it</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>Meant for Unity<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">This blog is specifically meant for Unity Engine. However, this will also apply to other frameworks that encounter Null Reference Exception in C#. This is because, at the end of the day, it is C# and this is a C# thing, not a Unity thing.</div>
+        </div>
+    </div>
+<p>As a beginner, at some point or another, you must have encountered null reference exception while developing your application and, for some people, it&rsquo;s really hard to understand how to fix it (mainly because, in my opinion, some game devs do not have prior knowledge of C#). So today, you&rsquo;ll be learning how to fix it, I&rsquo;ll try to simplify it as much as possible. So first of all, I want to start off with null reference exceptions because well, it&rsquo;s a really common programming mistake and commonly repeated especially by beginners, so I am going to guide you through what this &ldquo;Null Reference Exception&rdquo; is and how to fix it.</p>
+<h2 id="understanding-null-ref">Understanding null ref</h2>
 <p>So, why does null ref (short for null reference exception) even happen?
 Well, the simplest answer for this could be that C# throws this exception when one of your variables is <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null" target="_blank" rel="noopener noreffer">null</a> which basically means</p>
 <blockquote>
@@ -122,6 +138,7 @@ Well, the simplest answer for this could be that C# throws this exception when o
         data-sizes="auto"
         alt="/blog/nullref/exception.png"
         title="Null Reference Exception" /></p>
+<h2 id="debugging-101">Debugging 101</h2>
 <p>This is the output, nothing is really changed and our code does not work. Passionate beginners (perhaps ones like you, that could be one of the reasons you&rsquo;re here because you&rsquo;re stuck and some senior developer directed you here) often make this mistake without realizing, though this is nothing to be worried about.</p>
 <p>Well, how do I know that my variable is null? As a programmer, you should debug your code, debugging. In software development, debugging is the process of finding and resolving bugs within computer programs, software, or systems.</p>
 <p>The first thing that might come into your head is probably going to be <code>Debug.Log();</code>. It&rsquo;s really powerful (though there are several other ways to do this like the <code>print();</code> function or <code>Console.Write();</code>/<code>Console.WriteLine();</code>) and always helps you out.</p>
@@ -162,6 +179,7 @@ Well, the simplest answer for this could be that C# throws this exception when o
         data-sizes="auto"
         alt="/blog/nullref/null_variable_2.png"
         title="Is it null?" /></p>
+<h2 id="fixing-it">Fixing it</h2>
 <p>Well, that&rsquo;s cool and all, but like.. I came here to know how to fix this, right? Tell me how to fix it. Gotcha, now that we&rsquo;ve actually covered all the basic debugging ways, let&rsquo;s get to know how to fix that.</p>
 <p>So, what do we first thing when we hear null ref? Keeping in view the definition of null; a variable not assigned, right? So we need to somehow assign it a value. In this case, it&rsquo;s a game object, a unity game object - so we will assign it our object to fix that error. I&rsquo;ll create a private Serialized object:</p>
 <div class="highlight"><div class="chroma">
@@ -200,7 +218,14 @@ Well, the simplest answer for this could be that C# throws this exception when o
         data-sizes="auto"
         alt="/blog/nullref/exception_fixed.png"
         title="Fixed results" /></p>
-<p>Quick side note, you can also create a new object instance, that&rsquo;ll also work out fine, it just at its core depends on what you really want to do.</p>
+<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>You can also create a game object instance<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">You can also create a new object instance, that&rsquo;ll also work out fine, it just at its core depends on what you really want to do.</div>
+        </div>
+    </div>
 <p>Now if we want to access the SetActive property, we&rsquo;re going to need to access it. Which we can now do because we have the game object. Now, when we&rsquo;ll run this code, we won&rsquo;t see any errors - so far, you&rsquo;re code should look like this (that is if, you&rsquo;re following this tutorial in a sandbox playground project):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -233,6 +258,7 @@ Well, the simplest answer for this could be that C# throws this exception when o
 </code></pre></td></tr></table>
 </div>
 </div><p>We have successfully set our object to inactive, cheers 🎉</p>
+<h2 id="conclusion">Conclusion</h2>
 <p>So now we can access all these components being assured that we have it working. There are other ways to access it, we&rsquo;re not going to get into those today, however, but that&rsquo;s pretty much it. I really hope I could clear everything out if you still have confusions or questions; I am often on discord (don&rsquo;t worry, if I&rsquo;m not available, others are really helpful) so you can hit me up at <a href="https://discord.gg/fKWpK7A" target="_blank" rel="noopener noreffer">discord/ANF-Studios</a> 😉</p>
 <p>Other useful servers are <a href="https://discord.gg/Unity" target="_blank" rel="noopener noreffer">discord/Unity</a> and <a href="https://discord.gg/Brackeys" target="_blank" rel="noopener noreffer">discord/Brackeys</a>.</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">

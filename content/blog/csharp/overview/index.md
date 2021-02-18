@@ -139,6 +139,6 @@ Another thing is that a lot of people don't read the error and just "freak out" 
 Anyhow, we need to somehow bind the name variable to `Console.ReadLine();`. We do so by "assigning" variables.
 
 In this case, we'll do it like so: `string name = Console.ReadLine();`. It's simple, isn't it? What this does is that it reads a line from the console and assigns that value to our name variable.
-
+g
 
 <!-- TODO: Complete the rest of the parts. -->

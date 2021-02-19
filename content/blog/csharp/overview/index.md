@@ -49,6 +49,25 @@ That is what I am going to explain to you right now; programming languages are p
 
 But wait a minute? Doesn't that mean C# gets slow and heavy? Well.. not exactly. It depends on the application itself and the code that is running behind the scenes. C# isn't really slow, I am satisfied with it.
 
+#### The architecture of dotNET
+Now, before we move on to trying out C#, I wanted to talk a bit about how .NET works or built.
+
+You've only really been hearing about .NET used to run and built C# code so far, so I wanted to clear this out to you. What is dotNET? dotNET is a "[virtual execution system](https://en.wikipedia.org/wiki/Virtual_Execution_System)" which means that dotNET provides an environment for executing "[managed code](https://en.wikipedia.org/wiki/Managed_code)". It also provides data types that are built into it such as some of them that we're going to explore later on.
+
+Other than that, it's called the "Common Language Runtime" which provides also provides built-in libraries, including some functions that we've used earlier (recall `Console.WriteLine` and `Console.ReadKey`).
+
+So *C# only runs on dotNET, but what does it "compile to"?* Well binary, right? Well yes, but actually no, it compiles *into* IL (Intermediate language) form which at the end goes to binary. IL is really just a product of compilation of code written in high-level .NET languages.
+
+Now I don't want to make this too complex or get into too much detail, so I'll wrap this up here:
+
+| About         | Info                      |
+| ------------- | ------------------------- |
+| Language      | C#                        |
+| Runs on       | dotNET                    |
+| Compiled to   | IL                        |
+| Language Type | Managed/Garbage collected |
+| dotNET is     | virtual execution system  |
+
 ## Exploring C#
 
 I think I've talked a lot about that and you're probably bored if you've read that, but don't you worry. Onto the fun parts!
@@ -139,6 +158,5 @@ Another thing is that a lot of people don't read the error and just "freak out" 
 Anyhow, we need to somehow bind the name variable to `Console.ReadLine();`. We do so by "assigning" variables.
 
 In this case, we'll do it like so: `string name = Console.ReadLine();`. It's simple, isn't it? What this does is that it reads a line from the console and assigns that value to our name variable.
-g
 
 <!-- TODO: Complete the rest of the parts. -->

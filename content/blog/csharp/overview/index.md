@@ -66,7 +66,7 @@ Now I don't want to make this too complex or get into too much detail, so I'll w
 | Runs on       | dotNET                    |
 | Compiled to   | IL                        |
 | Language Type | Managed/Garbage collected |
-| dotNET is     | virtual execution system  |
+| dotNET is     | Virtual execution system  |
 
 ## Exploring C#
 

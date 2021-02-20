@@ -161,6 +161,20 @@ Another thing is that a lot of people don't read the error and just "freak out" 
 
 Anyhow, we need to somehow bind the name variable to `Console.ReadLine();`. We do so by "assigning" variables.
 
-In this case, we'll do it like so: `string name = Console.ReadLine();`. It's simple, isn't it? What this does is that it reads a line from the console and assigns that value to our name variable.
+In this case, we'll do it like so: `string name = Console.ReadLine();`. It's simple, isn't it? What this does is that it reads a line from the console and assigns that value to our name variable. Which means that it gets our input from the console and gives it to this "name" variable. So whatever the user inputs will be stored in that variable.
+
+Now, if we want to print this, we'll simply just put in `name` inside of the arguments our `Console.WriteLine();` takes. Like so: `Console.WriteLine(name);`, but for readability, I'll also add another string that tells us what we wrote.
+
+We can just write two Console.WriteLines (or a `Console.Write` which is the same as `Console.WriteLine` except it doesn't append a new line at the end of printing), but the problem with that is we're printing two times due to which that method gets called* twice. That's not the best way to write code.
+
+{{<admonition info "*called means invoked" false>}}
+Like our "Main" method, that is called <!-- by dotNET --> when our code starts, the `Console.WriteLine` method that is part of dotNET (and not C#) gets called, which means we invoke it or run it. We'll look into methods in a future tutorial.
+{{</admonition>}}
+
+So, what we can do is "contact" strings together. There are multiple ways to do this that we will be exploring together. For this one, we'll use the `+` symbol like so: `Console.WriteLine("You typed: " + name);`. Let's see how that works out:
+
+![What we typed](what_we_typed.gif)
+
+Great! We've learnt something new.
 
 <!-- TODO: Complete the rest of the parts. -->

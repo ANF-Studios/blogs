@@ -235,4 +235,24 @@ Starting with `int`. Well, what is int? If you can guess, it means integer. You 
 // Declaration example.
 int variable = 0;
 ```
+
+Now the second type is a string which we have already used earlier. You can already guess what it's used for. It's a Read-Only collection of another data type called `char` and it can also take upto 4 bytes of memory which is a lot of characters.
+
+```cs
+// Declaration example.
+string variable = "Hello World!";
+```
+
+Char is a type which can only take in one character. The interesting thing about them is that they can be declared with both single and double quotes like: `''` and `""`.
+
+```cs
+// Declaration example.
+char variable = "a";
+char anotherVariable = 'b';
+```
+
+If you put more than just one character in there, you'll get a compile error and it won't work, so don't do that.
+
+There are a lot more types than this, but I think these will be enough. In the future, we *might* also create our own type.
+
 <!-- TODO: Complete the rest of the parts. -->

@@ -200,7 +200,7 @@ namespace learning_csharp
 
 Now `using System;`, what is this and what does it mean? This is called a "using directive" which allows us to qualify a use for a namespace. That allows us to use everything within that namespace, like the one we've declared called "learning_csharp". If we wouldn't have wrote that, we would get compile errors. Try and see it for yourself!
 
-We would have to direcly type out `System.Console.WriteLine(...);` and `System.Console.ReadKey`. Other than that, we can also set "aliases" that change how we use a specific namespace. Here's a sample:
+We would have to direcly type out `System.Console.WriteLine(...);` and `System.Console.ReadKey();`. Other than that, we can also set "aliases" that change how we use a specific namespace. Here's a sample:
 
 ```cs
 using std = System; // std means "standard" library.

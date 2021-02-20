@@ -15,7 +15,7 @@
 <meta name="twitter:title" content="An introduction into programming and writing our first lines of code"/>
 <meta name="twitter:description" content="Hey there! This is the very first article of this series in which we will be learning C# and working on projects."/>
 <meta name="application-name" content="ANF Blogs">
-<meta name="apple-mobile-web-app-title" content="ANF Blogs"><link rel="icon" href="/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://anf.myst.rs/blog/csharp/introduction/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="ANF Blogs"><link rel="icon" href="/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://anf.myst.rs/blog/csharp/introduction/" /><link rel="next" href="https://anf.myst.rs/blog/csharp/overview/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -175,7 +175,7 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         data-srcset="/blog/csharp/introduction/install_csharp_extension.png, install_csharp_extension.png 1.5x, /blog/csharp/introduction/install_csharp_extension.png 2x"
         data-sizes="auto"
         alt="/blog/csharp/introduction/install_csharp_extension.png"
-        title="VSCode_C#_Extension" /></p>
+        title="VSCode C# Extension" /></p>
 <h2 id="installing-dotnet">Installing dotNET</h2>
 <p>Now that we have the C# extension, <em>the extension</em> (not VS Code itself) will install some tools that are required for debugging. While that is working, you also need to somehow convert your text-based &ldquo;code&rdquo; into some binary form to run it, that&rsquo;s important because that&rsquo;s just &ldquo;<a href="https://en.wikipedia.org/wiki/Intelligent_code_completion" target="_blank" rel="noopener noreffer">intellisense</a>&rdquo; you have and that doesn&rsquo;t have much worth without the actual tool to convert it, it&rsquo;s called the C# &ldquo;compiler&rdquo;, that complies code and it&rsquo;s called .NET (pronounced as &ldquo;dot net&rdquo;). And yes, you also need to install dotNET to build tools.</p>
 <p>Now if you&rsquo;re wondering what that .NET Framework was when updating Windows <em>specifically</em>, well, that&rsquo;s the &ldquo;runtime&rdquo; framework that <em>only</em> allows you to run dotNET Framework applications. But what we&rsquo;re installing is called dotNET, literally just dotNET. It&rsquo;s nothing more.</p>
@@ -208,7 +208,7 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         data-srcset="/blog/csharp/introduction/new_terminal.png, new_terminal.png 1.5x, /blog/csharp/introduction/new_terminal.png 2x"
         data-sizes="auto"
         alt="/blog/csharp/introduction/new_terminal.png"
-        title="New_Terminal" /></p>
+        title="New Terminal" /></p>
 <p>Now that you&rsquo;ve run that command, you should see this or a similar output:</p>
 <p><img
         class="lazyload"
@@ -217,7 +217,7 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         data-srcset="/blog/csharp/introduction/dotnet_new_output.png, dotnet_new_output.png 1.5x, /blog/csharp/introduction/dotnet_new_output.png 2x"
         data-sizes="auto"
         alt="/blog/csharp/introduction/dotnet_new_output.png"
-        title="dotNET_New_Output" /></p>
+        title="dotNET New Output" /></p>
 <div class="details admonition warning">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-exclamation-triangle fa-fw"></i>If this command does not run<i class="details-icon fas fa-angle-right fa-fw"></i>
@@ -234,7 +234,7 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         data-srcset="/blog/csharp/introduction/generate_assets.png, generate_assets.png 1.5x, /blog/csharp/introduction/generate_assets.png 2x"
         data-sizes="auto"
         alt="/blog/csharp/introduction/generate_assets.png"
-        title="Generate_Assets" /></p>
+        title="Generate Assets" /></p>
 <p>Now you will see some folder(s), notably the <code>.vscode</code> folder. That is responsible for telling VS Code how we want to run our application within VS Code.</p>
 <p>Now every setting is nice, however, there&rsquo;s this one config value I want to change, personally, I like when our application is launched in a new window instead of the same one. So what I&rsquo;ll do is open up the <code>.vscode</code> folder by clicking on it in my explorer (in VS Code) and open up <code>launch.json</code>. Finally, this is how it looks, for me:</p>
 <div class="highlight"><div class="chroma">
@@ -305,7 +305,7 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         data-srcset="/blog/csharp/introduction/external_terminal.png, external_terminal.png 1.5x, /blog/csharp/introduction/external_terminal.png 2x"
         data-sizes="auto"
         alt="/blog/csharp/introduction/external_terminal.png"
-        title="External_Terminal" /></p>
+        title="External Terminal" /></p>
 <p>And that&rsquo;s it, we&rsquo;re all set up and we are reading to code! You can close <code>launch.json</code> and open up <code>Program.cs</code>. What you see is some basic code:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -351,7 +351,7 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         data-srcset="/blog/csharp/introduction/launching_program_1.gif, launching_program_1.gif 1.5x, /blog/csharp/introduction/launching_program_1.gif 2x"
         data-sizes="auto"
         alt="/blog/csharp/introduction/launching_program_1.gif"
-        title="Launching_Our_Program" /></p>
+        title="Launching Our Program" /></p>
 <p>Well, why does it close?</p>
 <p>That&rsquo;s because we haven&rsquo;t told our program to exit after it reads some key, or in other words, gets some input.</p>
 <p>To do so, we will write <code>Console.ReadKey();</code> in the next line like so:</p>
@@ -395,7 +395,7 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         data-srcset="/blog/csharp/introduction/launching_program_2.gif, launching_program_2.gif 1.5x, /blog/csharp/introduction/launching_program_2.gif 2x"
         data-sizes="auto"
         alt="/blog/csharp/introduction/launching_program_2.gif"
-        title="Launching_Our_Program_Again" /></p>
+        title="Launching Our Program Again" /></p>
 <p>It will only close when I press a key on to the console.</p>
 <p>That&rsquo;s great but our code will keep growing to a point where it&rsquo;s hard to tell what everything does, for this purpose, there are these things called &ldquo;code comments&rdquo;. When we write something that isn&rsquo;t valid code, we get an error:</p>
 <p><img
@@ -414,7 +414,7 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         data-srcset="/blog/csharp/introduction/inline_comment.png, inline_comment.png 1.5x, /blog/csharp/introduction/inline_comment.png 2x"
         data-sizes="auto"
         alt="/blog/csharp/introduction/inline_comment.png"
-        title="Inline_Comment" /></p>
+        title="Inline Comment" /></p>
 <p>Keep note that you don&rsquo;t need to space it out, I just did that for readability.</p>
 <p>Finally, another type of comment is made like <code>/* */</code> with anything between these two marked as a comment. They look like this:</p>
 <div class="highlight"><div class="chroma">
@@ -534,7 +534,8 @@ I think you&rsquo;re interested in learning C# (pronounced as &ldquo;See Sharp&r
         </section>
     </div>
 
-    <div class="post-nav"></div>
+    <div class="post-nav">
+            <a href="/blog/csharp/overview/" class="next" rel="next" title="A gentle overview of C# and how it works">A gentle overview of C# and how it works<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

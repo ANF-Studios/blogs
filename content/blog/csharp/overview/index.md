@@ -223,6 +223,7 @@ namespace learning_csharp
 
 You're probably wondering what the benefit of this is, well, there's this thing called nested namespaces which we'll look into the future.
 
+Now "class", what is that? Is that what a lecture you take in a school? Well, not quite. You can think of a class as a "type", such as the one we used called "string" except it's a bit different. Clases are, by definition a "reference type" (which store a reference, we'll look more into "value types" and "reference types" in the future). `Console` itself is a class. Think of it as a container of methods and variables etc. We'll look more into those in the future.
 
 
 <!-- TODO: Complete the rest of the parts. -->

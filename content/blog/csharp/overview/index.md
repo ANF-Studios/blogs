@@ -231,4 +231,8 @@ Now I think we should have a glance and the basic types.
 
 Starting with `int`. Well, what is int? If you can guess, it means integer. You cannot have a floating point value in an integer which means a decimal point value such as `1.1146`. You can perhaps store someone's age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more. Now a number takes memory to store right? An int type takes 4 bytes of memory in C#, which means the maximum number you can have is `2,147,483,647` which is a lot.
 
+```cs
+// Declaration example.
+int variable = 0;
+```
 <!-- TODO: Complete the rest of the parts. -->

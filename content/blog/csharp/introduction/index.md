@@ -3,6 +3,7 @@ title: "An introduction into programming and writing our first lines of code"
 description: "Hey there! This is the very first article of this series in which we will be learning C# and working on projects."
 slug: introduction
 date: 2021-02-13T12:02:32-05:00
+lastmod: 2021-02-20T02:55:55-05:00
 draft: false
 categories:
 - CSharp

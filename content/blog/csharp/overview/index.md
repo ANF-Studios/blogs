@@ -225,5 +225,10 @@ You're probably wondering what the benefit of this is, well, there's this thing 
 
 Now "class", what is that? Is that what a lecture you take in a school? Well, not quite. You can think of a class as a "type", such as the one we used called "string" except it's a bit different. Clases are, by definition a "reference type" (which store a reference, we'll look more into "value types" and "reference types" in the future). `Console` itself is a class. Think of it as a container of methods and variables etc. We'll look more into those in the future.
 
+I know I'm saying that a lot that "we'll be looking more into that in the future" and not explaining a lot because it really gets super complex.
+
+Now I think we should have a glance and the basic types.
+
+Starting with `int`. Well, what is int? If you can guess, it means integer. You cannot have a floating point value in an integer which means a decimal point value such as `1.1146`. You can perhaps store someone's age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more.
 
 <!-- TODO: Complete the rest of the parts. -->

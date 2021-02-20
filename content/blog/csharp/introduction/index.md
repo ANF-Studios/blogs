@@ -85,7 +85,7 @@ Now yours will be most likely different from mine, don't worry about that. I'll 
 
 You can have a look at some extensions that you can download yourselves by pressing `Ctrl` + `Shift` + `S`. But for now, we will be installing only one extension, the C# extension which enables IntelliSense for us, so in the search box, type in "C#" and install the very first extension you see named nothing but `C#` and is published by Microsoft.
 
-![VSCode_C#_Extension](install_csharp_extension.png)
+![VSCode C# Extension](install_csharp_extension.png)
 
 ## Installing dotNET
 
@@ -117,11 +117,11 @@ Now a few things, if you do not see the terminal, press Ctrl + Shift + `.
 
 You can also press the new terminal button from Terminal -> New Terminal.
 
-![New_Terminal](new_terminal.png)
+![New Terminal](new_terminal.png)
 
 Now that you've run that command, you should see this or a similar output:
 
-![dotNET_New_Output](dotnet_new_output.png)
+![dotNET New Output](dotnet_new_output.png)
 
 
 {{<admonition warning "If this command does not run" false>}}
@@ -131,7 +131,7 @@ If you see an error, it's most likely because something went wrong while install
 
 Now you will see a csproj file, a cs file, and an obj folder. Considering that you have .NET installed and the extension is running, it will ask you to "Generate Assets", always press yes as you need those, they will be a time-saver so that you don't need to set the project up.
 
-![Generate_Assets](generate_assets.png)
+![Generate Assets](generate_assets.png)
 
 Now you will see some folder(s), notably the `.vscode` folder. That is responsible for telling VS Code how we want to run our application within VS Code.
 
@@ -168,7 +168,7 @@ Now every setting is nice, however, there's this one config value I want to chan
 
 I want to change that `"console"`'s value from `internalConsole` to `externalTerminal`
 
-![External_Terminal](external_terminal.png)
+![External Terminal](external_terminal.png)
 
 And that's it, we're all set up and we are reading to code! You can close `launch.json` and open up `Program.cs`. What you see is some basic code:
 ```cs
@@ -200,7 +200,7 @@ Inside our main method, there is this thing called `Console.WriteLine("Hello Wor
 
 You can press `F5` to run our program and an external console should pop up and close immediately.
 
-![Launching_Our_Program](launching_program_1.gif)
+![Launching Our Program](launching_program_1.gif)
 
 Well, why does it close?
 
@@ -225,7 +225,7 @@ namespace learning_csharp
 
 Now, when we run our program;
 
-![Launching_Our_Program_Again](launching_program_2.gif)
+![Launching Our Program Again](launching_program_2.gif)
 
 It will only close when I press a key on to the console.
 
@@ -235,7 +235,7 @@ That's great but our code will keep growing to a point where it's hard to tell w
 
 So, to write a comment, there are two ways, the most basic one being putting to slashes (`//`) before our text. The comment continues infinitely, it looks something like this:
 
-![Inline_Comment](inline_comment.png)
+![Inline Comment](inline_comment.png)
 
 Keep note that you don't need to space it out, I just did that for readability.
 

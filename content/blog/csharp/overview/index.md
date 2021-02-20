@@ -150,7 +150,7 @@ And now, when we run our program, the only thing that would happen is that it wo
 
 But hey.. we haven't discussed about this yellow warning. Why does it say that?
 
-![Unused_Variable](unused_variable.png)
+![Unused Variable](unused_variable.png)
 
 Well first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we're going to use it later on.
 

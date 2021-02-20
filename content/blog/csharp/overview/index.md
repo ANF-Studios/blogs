@@ -86,7 +86,7 @@ So variables can be really simple and really complex. They are one of the most b
 
 This is our initial code:
 
-```csharp
+```cs
 using System;
 
 namespace learning_csharp
@@ -104,7 +104,7 @@ namespace learning_csharp
 
 Let's suppose that we wanted to make a game that runs on our console. Firstly, we would want to store the name of the user so that we can use it later, right? So to store some text that we read from the console, there is a data type called `string`. Let's jump in and take a look at how can we "declare" a string and use it.
 
-```csharp
+```cs
 using System;
 
 namespace learning_csharp
@@ -127,7 +127,7 @@ Congratulations! You've made your very first variable. Let's see that specific p
 So how do we use this variable? Is there some way to read a sentence instead of a character from the console? Of course there is! As mentioned earlier, I love C# for its incredible library and feature support. The syntax for that is `Console.ReadLine();`.
 
 This is how it goes:
-```csharp
+```cs
 using System;
 
 namespace learning_csharp

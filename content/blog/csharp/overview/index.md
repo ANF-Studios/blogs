@@ -253,6 +253,18 @@ char anotherVariable = 'b';
 
 If you put more than just one character in there, you'll get a compile error and it won't work, so don't do that.
 
+{{<admonition info "Cool way to make strings" false>}}
+Another thing I wanted to share that I found out while researching this (I keep double/triple checking sources to check I don't spread misinformation) is that you can make a string out of an array of chars. Now an array is declared with two square brackets right after the type like so: `type[]`. We will be discussing that later on.
+
+So this is how you can make a string from a char array:
+```cs
+char[] myCharArray = { 'a', 'b', 'c' };
+string myString = new string(myCharArray);
+```
+
+Now this has a lot in it, a lot, and I can understand that. But you don't need to worry about this for now.
+{{</admonition>}}
+
 There are a lot more types than this, but I think these will be enough. In the future, we *might* also create our own type.
 
 <!-- TODO: Complete the rest of the parts. -->

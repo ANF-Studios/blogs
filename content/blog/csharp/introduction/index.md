@@ -89,7 +89,7 @@ You can have a look at some extensions that you can download yourselves by press
 
 ## Installing dotNET
 
-Now that we have the C# extension, *the extension* (not VS Code itself) will install some tools that are required for debugging. While that is working, you also need to somehow convert your text-based "code" into some binary form to run it, that's important because that's just "[IntelliSense](https://en.wikipedia.org/wiki/Intelligent_code_completion)" you have and that doesn't have much worth without the actual tool to convert it, it's called the C# "compiler", that complies code and it's called .NET (pronounced as "dot net"). And yes, you also need to install dotNET to build tools.
+Now that we have the C# extension, *the extension* (not VS Code itself) will install some tools that are required for debugging. While that is working, you also need to somehow convert your text-based "code" into some binary form to run it, that's important because that's just "[intellisense](https://en.wikipedia.org/wiki/Intelligent_code_completion)" you have and that doesn't have much worth without the actual tool to convert it, it's called the C# "compiler", that complies code and it's called .NET (pronounced as "dot net"). And yes, you also need to install dotNET to build tools.
 
 Now if you're wondering what that .NET Framework was when updating Windows *specifically*, well, that's the "runtime" framework that *only* allows you to run dotNET Framework applications. But what we're installing is called dotNET, literally just dotNET. It's nothing more.
 

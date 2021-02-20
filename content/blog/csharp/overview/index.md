@@ -177,4 +177,52 @@ So, what we can do is "contact" strings together. There are multiple ways to do 
 
 Great! We've learnt something new.
 
+Now, as the title suggests, we're also going to be looking on other parts of our code that we haven't explored. Let's bring out the code:
+
+```cs
+using System;
+
+namespace learning_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+            Console.WriteLine("You typed: " + name);
+            
+            // Reads a key from the console before exiting.
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+Now `using System;`, what is this and what does it mean? This is called a "using directive" which allows us to qualify a use for a namespace. That allows us to use everything within that namespace, like the one we've declared called "learning_csharp". If we wouldn't have wrote that, we would get compile errors. Try and see it for yourself!
+
+We would have to direcly type out `System.Console.WriteLine(...);` and `System.Console.ReadKey`. Other than that, we can also set "aliases" that change how we use a specific namespace. Here's a sample:
+
+```cs
+using std = System; // std means "standard" library.
+
+namespace learning_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = std.Console.ReadLine();
+            std.Console.WriteLine("You typed: " + name);
+            
+            // Reads a key from the console before exiting.
+            std.Console.ReadKey();
+        }
+    }
+}
+```
+
+You're probably wondering what the benefit of this is, well, there's this thing called nested namespaces which we'll look into the future.
+
+
+
 <!-- TODO: Complete the rest of the parts. -->

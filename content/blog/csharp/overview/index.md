@@ -8,7 +8,7 @@ categories:
 - CSharp
 #aliases: 
 #- 
-featuredImage: "" # overview_thumb.png
+featuredImage: "overview_thumb.png"
 author: "ANF-Studios"
 ---
 

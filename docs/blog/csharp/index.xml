@@ -10,7 +10,9 @@
     <pubDate>Mon, 15 Feb 2021 21:04:24 -0500</pubDate>
     <author>Author</author>
     <guid>https://anf.myst.rs/blog/csharp/overview/</guid>
-    <description><![CDATA[Today we're going to have a quick overview on C#, its syntax and how it works.]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/overview_thumb.png" referrerpolicy="no-referrer">
+            </div>Today we're going to have a quick overview on C#, its syntax and how it works.]]></description>
 </item><item>
     <title>An introduction into programming and writing our first lines of code</title>
     <link>https://anf.myst.rs/blog/csharp/introduction/</link>

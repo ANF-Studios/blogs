@@ -24,7 +24,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/anf.myst.rs\/blog\/csharp\/overview\/"
-        },"image": ["https:\/\/anf.myst.rs\/logo.png"],"genre": "blog","wordcount":  1777 ,
+        },"image": ["https:\/\/anf.myst.rs\/logo.png"],"genre": "blog","wordcount":  2933 ,
         "url": "https:\/\/anf.myst.rs\/blog\/csharp\/overview\/","datePublished": "2021-02-15T21:04:24-05:00","dateModified": "2021-02-15T21:04:24-05:00","publisher": {
             "@type": "Organization",
             "name": "ANF-Studios"},"author": {
@@ -74,9 +74,16 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">A gentle overview of C# and how it works</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/ANF" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>ANF-Studios</a></span>&nbsp;<span class="post-category">included in <a href="/blog/csharp/"><i class="far fa-folder fa-fw"></i>C#</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="15.02.2021">15.02.2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1777 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;9 minutes&nbsp;</div>
-        </div><div class="details toc" id="toc-static"  kept="">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="15.02.2021">15.02.2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;2933 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;14 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="overview_thumb.png"
+        data-srcset="/blog/csharp/overview/overview_thumb.png, overview_thumb.png 1.5x, /blog/csharp/overview/overview_thumb.png 2x"
+        data-sizes="auto"
+        alt="/blog/csharp/overview/overview_thumb.png"
+        title="A gentle overview of C# and how it works" /></div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
@@ -89,7 +96,14 @@
         <li><a href="#how-c-works">How C# works</a></li>
       </ul>
     </li>
-    <li><a href="#exploring-c">Exploring C#</a></li>
+    <li><a href="#exploring-c">Exploring C#</a>
+      <ul>
+        <li><a href="#variables">Variables</a></li>
+      </ul>
+    </li>
+    <li><a href="#understanding-what-everything-means">Understanding what everything means</a></li>
+    <li><a href="#variable-types">Variable types</a></li>
+    <li><a href="#wrapping-up">Wrapping up</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>Oh hello there!</p>
@@ -157,6 +171,7 @@
 </table>
 <h2 id="exploring-c">Exploring C#</h2>
 <p>I think I&rsquo;ve talked a lot about that and you&rsquo;re probably bored if you&rsquo;ve read that, but don&rsquo;t you worry. Onto the fun parts!</p>
+<h3 id="variables">Variables</h3>
 <p>Firstly, I wanted to discuss about you from a general point of view, what a programming language should contain, let&rsquo;s see.. data/values? colors? green stuff?</p>
 <p>Well, it does have that, sort of. Let&rsquo;s start with the most basic item; values.</p>
 <p>&ldquo;Values&rdquo; is just a term I used for ease to give you an idea of what they are. The proper term for those are &ldquo;variables&rdquo; and that&rsquo;s what you should be using.</p>
@@ -179,7 +194,7 @@
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
 
 <span class="k">namespace</span> <span class="nn">learning_csharp</span>
 <span class="p">{</span>
@@ -214,7 +229,7 @@
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
 
 <span class="k">namespace</span> <span class="nn">learning_csharp</span>
 <span class="p">{</span>
@@ -232,6 +247,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>Congratulations! You&rsquo;ve made your very first variable. Let&rsquo;s see that specific part: <code>string name;</code>. &ldquo;string name;&rdquo;, hmm&hellip; what does that mean? Well, string is the data type we declare our variable in and &ldquo;name&rdquo; is the name of our variable. You can name it <em>almost</em> anything you&rsquo;d like to, but I&rsquo;ll keep it whatever it is.</p>
+<h4 id="using-variables">Using variables</h4>
 <p>So how do we use this variable? Is there some way to read a sentence instead of a character from the console? Of course there is! As mentioned earlier, I love C# for its incredible library and feature support. The syntax for that is <code>Console.ReadLine();</code>.</p>
 <p>This is how it goes:</p>
 <div class="highlight"><div class="chroma">
@@ -254,7 +270,7 @@
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
 
 <span class="k">namespace</span> <span class="nn">learning_csharp</span>
 <span class="p">{</span>
@@ -281,7 +297,7 @@
         data-srcset="/blog/csharp/overview/unused_variable.png, unused_variable.png 1.5x, /blog/csharp/overview/unused_variable.png 2x"
         data-sizes="auto"
         alt="/blog/csharp/overview/unused_variable.png"
-        title="Unused_Variable" /></p>
+        title="Unused Variable" /></p>
 <p>Well first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we&rsquo;re going to use it later on.</p>
 <p>Another thing is that a lot of people don&rsquo;t read the error and just &ldquo;freak out&rdquo; as if it would never get solved. A simple trick to solve almost any error is to</p>
 <ol>
@@ -311,7 +327,196 @@
         alt="/blog/csharp/overview/what_we_typed.gif"
         title="What we typed" /></p>
 <p>Great! We&rsquo;ve learnt something new.</p>
-<!-- TODO: Complete the rest of the parts. --></div><div class="post-footer" id="post-footer">
+<h2 id="understanding-what-everything-means">Understanding what everything means</h2>
+<p>Now, as the title suggests, we&rsquo;re also going to be looking on other parts of our code that we haven&rsquo;t explored. Let&rsquo;s bring out the code:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">learning_csharp</span>
+<span class="p">{</span>
+    <span class="k">class</span> <span class="nc">Program</span>
+    <span class="p">{</span>
+        <span class="k">static</span> <span class="k">void</span> <span class="n">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="kt">string</span> <span class="n">name</span> <span class="p">=</span> <span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">();</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;You typed: &#34;</span> <span class="p">+</span> <span class="n">name</span><span class="p">);</span>
+            
+            <span class="c1">// Reads a key from the console before exiting.
+</span><span class="c1"></span>            <span class="n">Console</span><span class="p">.</span><span class="n">ReadKey</span><span class="p">();</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Now <code>using System;</code>, what is this and what does it mean? This is called a &ldquo;using directive&rdquo; which allows us to qualify a use for a namespace. That allows us to use everything within that namespace, like the one we&rsquo;ve declared called &ldquo;learning_csharp&rdquo;. If we wouldn&rsquo;t have wrote that, we would get compile errors. Try and see it for yourself!</p>
+<p>We would have to direcly type out <code>System.Console.WriteLine(...);</code> and <code>System.Console.ReadKey();</code>. Other than that, we can also set &ldquo;aliases&rdquo; that change how we use a specific namespace. Here&rsquo;s a sample:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="k">using</span> <span class="nn">std</span> <span class="p">=</span> <span class="n">System</span><span class="p">;</span> <span class="c1">// std means &#34;standard&#34; library.
+</span><span class="c1"></span>
+<span class="k">namespace</span> <span class="nn">learning_csharp</span>
+<span class="p">{</span>
+    <span class="k">class</span> <span class="nc">Program</span>
+    <span class="p">{</span>
+        <span class="k">static</span> <span class="k">void</span> <span class="n">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="kt">string</span> <span class="n">name</span> <span class="p">=</span> <span class="n">std</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">();</span>
+            <span class="n">std</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;You typed: &#34;</span> <span class="p">+</span> <span class="n">name</span><span class="p">);</span>
+            
+            <span class="c1">// Reads a key from the console before exiting.
+</span><span class="c1"></span>            <span class="n">std</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">ReadKey</span><span class="p">();</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>You&rsquo;re probably wondering what the benefit of this is, well, there&rsquo;s this thing called nested namespaces which we&rsquo;ll look into the future.</p>
+<p>Now &ldquo;class&rdquo;, what is that? Is that what a lecture you take in a school? Well, not quite. You can think of a class as a &ldquo;type&rdquo;, such as the one we used called &ldquo;string&rdquo; except it&rsquo;s a bit different. Clases are, by definition a &ldquo;reference type&rdquo; (which store a reference, we&rsquo;ll look more into &ldquo;value types&rdquo; and &ldquo;reference types&rdquo; in the future). <code>Console</code> itself is a class. Think of it as a container of methods and variables etc. We&rsquo;ll look more into those in the future.</p>
+<p>I know I&rsquo;m saying that a lot that &ldquo;we&rsquo;ll be looking more into that in the future&rdquo; and not explaining a lot because it really gets super complex.</p>
+<h2 id="variable-types">Variable types</h2>
+<p>Now I think we should have a glance and the basic types.</p>
+<p>Starting with <code>int</code>. Well, what is int? If you can guess, it means integer. You cannot have a floating point value in an integer which means a decimal point value such as <code>1.1146</code>. You can perhaps store someone&rsquo;s age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more. Now a number takes memory to store right? An int type takes 4 bytes of memory in C#, which means the maximum number you can have is <code>2,147,483,647</code> which is a lot.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="c1">// Declaration example.
+</span><span class="c1"></span><span class="kt">int</span> <span class="n">variable</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Now the second type is a string which we have already used earlier. You can already guess what it&rsquo;s used for. It&rsquo;s a Read-Only collection of another data type called <code>char</code> and it can also take upto 4 bytes of memory which is a lot of characters.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="c1">// Declaration example.
+</span><span class="c1"></span><span class="kt">string</span> <span class="n">variable</span> <span class="p">=</span> <span class="s">&#34;Hello World!&#34;</span><span class="p">;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Char is a type which can only take in one character. The interesting thing about them is that they can be declared with both single and double quotes like: <code>''</code> and <code>&quot;&quot;</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="c1">// Declaration example.
+</span><span class="c1"></span><span class="kt">char</span> <span class="n">variable</span> <span class="p">=</span> <span class="s">&#34;a&#34;</span><span class="p">;</span>
+<span class="kt">char</span> <span class="n">anotherVariable</span> <span class="p">=</span> <span class="sc">&#39;b&#39;</span><span class="p">;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>If you put more than just one character in there, you&rsquo;ll get a compile error and it won&rsquo;t work, so don&rsquo;t do that.</p>
+<div class="details admonition info">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>Cool way to make strings<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Another thing I wanted to share that I found out while researching this (I keep double/triple checking sources to check I don&rsquo;t spread misinformation) is that you can make a string out of an array of chars. Now an array is declared with two square brackets right after the type like so: <code>type[]</code>. We will be discussing that later on.</p>
+<p>So this is how you can make a string from a char array:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="kt">char</span><span class="p">[]</span> <span class="n">myCharArray</span> <span class="p">=</span> <span class="p">{</span> <span class="sc">&#39;a&#39;</span><span class="p">,</span> <span class="sc">&#39;b&#39;</span><span class="p">,</span> <span class="sc">&#39;c&#39;</span> <span class="p">};</span>
+<span class="kt">string</span> <span class="n">myString</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">string</span><span class="p">(</span><span class="n">myCharArray</span><span class="p">);</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Now this has a lot in it, a lot, and I can understand that. But you don&rsquo;t need to worry about this for now.</p>
+</div>
+        </div>
+    </div>
+<p>There are a lot more types than this, but I think these will be enough. In the future, we <em>might</em> also create our own type.</p>
+<p>Today&rsquo;s challenge is going to be a little bit tricky which involves a bit more complex code than we have right now, so I&rsquo;ll give you some tips:</p>
+<p>First of all, when you want to read a specific key, but also know what it is, the easiest way to do so is using the <code>Console.Read();</code> method. It returns an integer type which is the &ldquo;index&rdquo; of the key code. This index is based on the ASCII table which is shown in the following image:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="ascii_table.png"
+        data-srcset="/blog/csharp/overview/ascii_table.png, ascii_table.png 1.5x, /blog/csharp/overview/ascii_table.png 2x"
+        data-sizes="auto"
+        alt="/blog/csharp/overview/ascii_table.png"
+        title="ASCII Table" /></p>
+<p>Great! We can store that in a variable like we did when uisng <code>Console.ReadLine();</code> except that since it returns an int, we will store it in an int, like so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="kt">int</span> <span class="n">key</span> <span class="p">=</span> <span class="n">Console</span><span class="p">.</span><span class="n">Read</span><span class="p">();</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>But the problem is that we don&rsquo;t know how to determine which key it is, when we use or print it to the console, we will get a number. So, to <em>convert</em> it into a form of text (either string or char), we can &ldquo;cast&rdquo; it. There are two ways of casting, we&rsquo;ll be using &ldquo;explicit&rdquo; casting which will go like:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cs" data-lang="cs"><span class="kt">int</span> <span class="n">key</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToChar</span><span class="p">(</span><span class="n">Console</span><span class="p">.</span><span class="n">Read</span><span class="p">());</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>But we&rsquo;ll get an error, this is because we&rsquo;re making it into a character, although the variable we&rsquo;re storing is an integer, which is wrong because as stated earlier, both have a different size and definition.</p>
+<p>So, we can simply change that <code>int</code> to <code>char</code> i.e, <code>char key = Convert.ToChar(Console.Read());</code>.</p>
+<p>Similarly, you can also change it to <code>Convert.ToString</code> (note that you would also have to change the type). For a normal integer i.e, <code>int</code>, you can use <code>Convert.ToInt32</code> which represents a 32 bit integer. We&rsquo;ll be looking about different types of numbers in the future.</p>
+<h2 id="wrapping-up">Wrapping up</h2>
+<p>I think that&rsquo;s enough for today, we have learnt a lot.</p>
+<p>Now for today&rsquo;s challenge:</p>
+<p>Your goal is to make a program, a chat bot, doesn&rsquo;t need to be good, just a simple chat bot which asks some questions and talks for a bit. You can make it however you like.</p>
+<p>This is how it should look:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="chat_bot.gif"
+        data-srcset="/blog/csharp/overview/chat_bot.gif, chat_bot.gif 1.5x, /blog/csharp/overview/chat_bot.gif 2x"
+        data-sizes="auto"
+        alt="/blog/csharp/overview/chat_bot.gif"
+        title="Chat Bot" /></p>
+<p>Now, as this is a challenge for you, you&rsquo;re going to have to do it without copying code. I will leave a solution/sample if you ever get stuck. Don&rsquo;t worry though, you only require more practise.</p>
+<p>I&rsquo;ll be using <a href="https://paste.myst.rs" target="_blank" rel="noopener noreffer">PasteMyst</a> to store the solutions, pastemyst is a code sharing site which I would recommend that you should use.
+Here&rsquo;s the paste: <a href="https://paste.myst.rs/y1ze5xfl" target="_blank" rel="noopener noreffer">pastemyst/y1ze5xfl</a>.</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">

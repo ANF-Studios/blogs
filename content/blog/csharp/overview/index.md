@@ -267,4 +267,43 @@ Now this has a lot in it, a lot, and I can understand that. But you don't need t
 
 There are a lot more types than this, but I think these will be enough. In the future, we *might* also create our own type.
 
-<!-- TODO: Complete the rest of the parts. -->
+Today's challenge is going to be a little bit tricky which involves a bit more complex code than we have right now, so I'll give you some tips:
+
+First of all, when you want to read a specific key, but also know what it is, the easiest way to do so is using the `Console.Read();` method. It returns an integer type which is the "index" of the key code. This index is based on the ASCII table which is shown in the following image:
+
+![ASCII Table](ascii_table.png)
+
+Great! We can store that in a variable like we did when uisng `Console.ReadLine();` except that since it returns an int, we will store it in an int, like so:
+
+```cs
+int key = Console.Read();
+```
+
+But the problem is that we don't know how to determine which key it is, when we use or print it to the console, we will get a number. So, to *convert* it into a form of text (either string or char), we can "cast" it. There are two ways of casting, we'll be using "explicit" casting which will go like:
+
+```cs
+int key = Convert.ToChar(Console.Read());
+```
+
+But we'll get an error, this is because we're making it into a character, although the variable we're storing is an integer, which is wrong because as stated earlier, both have a different size and definition.
+
+So, we can simply change that `int` to `char` i.e, `char key = Convert.ToChar(Console.Read());`.
+
+Similarly, you can also change it to `Convert.ToString` (note that you would also have to change the type). For a normal integer i.e, `int`, you can use `Convert.ToInt32` which represents a 32 bit integer. We'll be looking about different types of numbers in the future. 
+
+## Wrapping up
+
+I think that's enough for today, we have learnt a lot.
+
+Now for today's challenge:
+
+Your goal is to make a program, a chat bot, doesn't need to be good, just a simple chat bot which asks some questions and talks for a bit. You can make it however you like.
+
+This is how it should look:
+
+![Chat Bot](chat_bot.gif)
+
+Now, as this is a challenge for you, you're going to have to do it without copying code. I will leave a solution/sample if you ever get stuck. Don't worry though, you only require more practise.
+
+I'll be using [PasteMyst](https://paste.myst.rs) to store the solutions, pastemyst is a code sharing site which I would recommend that you should use.
+Here's the paste: [pastemyst/y1ze5xfl](https://paste.myst.rs/y1ze5xfl).

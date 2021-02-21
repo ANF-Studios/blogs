@@ -5,15 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>A gentle overview of C# and how it works - ANF Blogs</title><meta name="Description" content="Today we&#39;re going to have a quick overview on C#, its syntax and how it works."><meta property="og:title" content="A gentle overview of C# and how it works" />
-<meta property="og:description" content="Today we&#39;re going to have a quick overview on C#, its syntax and how it works." />
+        <title>A gentle overview of C# and how it works - ANF Blogs</title><meta name="Description" content="Today we&#39;re going to have a quick overview on C#, its syntax, and how it works."><meta property="og:title" content="A gentle overview of C# and how it works" />
+<meta property="og:description" content="Today we&#39;re going to have a quick overview on C#, its syntax, and how it works." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://anf.myst.rs/blog/csharp/overview/" />
 <meta property="article:published_time" content="2021-02-15T21:04:24-05:00" />
 <meta property="article:modified_time" content="2021-02-15T21:04:24-05:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="A gentle overview of C# and how it works"/>
-<meta name="twitter:description" content="Today we&#39;re going to have a quick overview on C#, its syntax and how it works."/>
+<meta name="twitter:description" content="Today we&#39;re going to have a quick overview on C#, its syntax, and how it works."/>
 <meta name="application-name" content="ANF Blogs">
 <meta name="apple-mobile-web-app-title" content="ANF Blogs"><link rel="icon" href="/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://anf.myst.rs/blog/csharp/overview/" /><link rel="prev" href="https://anf.myst.rs/blog/csharp/introduction/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
@@ -30,7 +30,7 @@
             "name": "ANF-Studios"},"author": {
                 "@type": "Person",
                 "name": "ANF-Studios"
-            },"description": "Today we're going to have a quick overview on C#, its syntax and how it works."
+            },"description": "Today we're going to have a quick overview on C#, its syntax, and how it works."
     }
     </script></head>
     <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -107,7 +107,7 @@
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>Oh hello there!</p>
-<p>If you&rsquo;re here and this is your first time/series here, I would recommend taking a look at the first series where I introuced to programming and C#, we also got everything set up and ran our first hello world program. If you have gone through that, you don&rsquo;t really need to read it, but I&rsquo;d still recommend that.</p>
+<p>If you&rsquo;re here and this is your first time/series here, I would recommend taking a look at the first series where I introduced you to programming and C#, we also got everything set up and ran our first hello world program. If you have gone through that, you don&rsquo;t really need to read it, but I&rsquo;d still recommend that.</p>
 <p>And if you are coming from that article, I hope you&rsquo;ve done your &ldquo;homework&rdquo;. If you got stuck, feel free to ask for help at my discord server: <a href="https://discord.gg/fKWpK7A" target="_blank" rel="noopener noreffer">discord/ANF-Studios</a> - there are a ton of programmers that have experience in programming so they should be really helpful.</p>
 <p>Anyhow, let&rsquo;s get started!</p>
 <h2 id="about-c">About C#</h2>
@@ -116,28 +116,28 @@
             <i class="icon fas fa-lightbulb fa-fw"></i>No need to read this part<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content">This header has a lot of detail and I left some parts because I did not want it to get too complex. This may get boring, at least in your first stage of learning - if you wish not to read it, you don&rsquo;t need to, you can come back later if you want, or not at all. Alright, now you can skip to the real part, if you wish to!</div>
+            <div class="admonition-content">This header has a lot of detail and I left some parts because I did not want it to get too complex. This may get boring, at least in your first stage of learning - if you wish not to read it, you don&rsquo;t need to, you can come back later if you want, or not at all. Alright, now you can skip to the real part if you wish to!</div>
         </div>
     </div>
 <p>C# really helps out to create robust and durable applications. This is all thanks to Microsoft. Speaking of Microsoft, they are the ones who are developing C# based on dotNET, which is what we installed in the previous post.</p>
-<p>Quick note this part is not really necessary to read but it&rsquo;s intersting information:</p>
-<p>When Sun introduced Java in 1995, Microsoft saw the potential in the language and its ecosystem, and attempted to implement that strategy. It introduced its own implementation of the JVM with IE3, and then started enhancing it beyond the Java standard. Sun sued Microsoft in October 1997 for incompletely implementing the Java 1.1 standard, which forced Microsoft to eventually discontinue its implementation.</p>
+<p>A quick note this part is not really necessary to read but it&rsquo;s interesting information:</p>
+<p>When Sun introduced Java in 1995, Microsoft saw the potential in the language and its ecosystem and attempted to implement that strategy. It introduced its own implementation of the JVM with IE3 and then started enhancing it beyond the Java standard. Sun sued Microsoft in October 1997 for incompletely implementing the Java 1.1 standard, which forced Microsoft to eventually discontinue its implementation.</p>
 <p>Rather than switching to Sun’s JVM, and thus giving Sun significant leverage in the Windows world, Microsoft decided to &ldquo;out Sun&rdquo; Sun, by introducing their own language and platform, and effectively killing Java on Windows. They brought renowned programming languages designer Anders Hejlsberg on board, who already had experience mutating and improving existing programming languages, and gave him the task to create a &ldquo;better Java&rdquo; (not officially, but in practice). Thus C# and the .NET framework were born.</p>
 <h3 id="why-i-love-c">Why I love C#</h3>
-<p>C# is a great language. I personally really like it, I hope you do too. The reason for that is that Microsoft has put a lot of efforts into it and it works well. The ecosystem and ease itself convinces me to use C# over another language.</p>
-<p>There&rsquo;s even an amazing and powerful package manager not only for C#, but for the entire .NET ecosystem and its languages (yes, there are other languages based on dotNET), called <a href="https://nuget.org" target="_blank" rel="noopener noreffer">nuget</a>.</p>
+<p>C# is a great language. I personally really like it, I hope you do too. The reason for that is that Microsoft has put a lot of effort into it and it works well. The ecosystem and ease to use C# itself have convinced me to use C# over another language.</p>
+<p>There&rsquo;s even an amazing and powerful package manager not only for C# but for the entire .NET ecosystem and its languages (yes, there are other languages based on dotNET), called <a href="https://nuget.org" target="_blank" rel="noopener noreffer">nuget</a>.</p>
 <p>We might even write a library and possibly publish it there, no promises though 👀</p>
-<p>Moreover, the standard library (a set of functions provided by C# developers) are so so well built, I, myself am impressed.</p>
+<p>Moreover, the standard library (a set of functions provided by C# developers) is so so well built, I, myself am impressed.</p>
 <h3 id="how-c-works">How C# works</h3>
-<p>Finally, I wanted to talk about how C# works. Programming languages are a way to express, not to the computer or the compiler, but to another person, what the it is supposed to do. I think of programming as a way of art to express yourself.</p>
+<p>Finally, I wanted to talk about how C# works. Programming languages are a way to express, not to the computer or the compiler, but to another person, what it is supposed to do. I think of programming as a way of art to express yourself.</p>
 <p>There are different kinds of languages, there are tonnes of languages that offer unique features. For example, C++ is not a managed language, but hol', what even is a managed language?</p>
-<p>That is what I am going to explain to you right now; programming languages are powerful, there are low level languages, and there are high level languages. Previously, we discussed how C# is a modern language which makes it high level. And low level languages where you have a bit more of boilerplate code. But you&rsquo;re probably asking; why do these even exist? Well, simple: Because they offer memory control and are generally faster, by which I mean they operate code quicker which is vital for applications that need those.</p>
+<p>That is what I am going to explain to you right now; programming languages are powerful, there are low-level languages, and there are high-level languages. Previously, we discussed how C# is a modern language which makes it high level. And low-level languages where you have a bit more boilerplate code. But you&rsquo;re probably asking; why do these even exist? Well, simple: Because they offer memory control and are generally faster, by which I mean they operate code quicker which is vital for applications that need those.</p>
 <p>But wait a minute? Doesn&rsquo;t that mean C# gets slow and heavy? Well.. not exactly. It depends on the application itself and the code that is running behind the scenes. C# isn&rsquo;t really slow, I am satisfied with it.</p>
 <h4 id="the-architecture-of-dotnet">The architecture of dotNET</h4>
-<p>Now, before we move on to trying out C#, I wanted to talk a bit about how .NET works or built.</p>
+<p>Now, before we move on to trying out C#, I wanted to talk a bit about how .NET works or is built.</p>
 <p>You&rsquo;ve only really been hearing about .NET used to run and built C# code so far, so I wanted to clear this out to you. What is dotNET? dotNET is a &ldquo;<a href="https://en.wikipedia.org/wiki/Virtual_Execution_System" target="_blank" rel="noopener noreffer">virtual execution system</a>&rdquo; which means that dotNET provides an environment for executing &ldquo;<a href="https://en.wikipedia.org/wiki/Managed_code" target="_blank" rel="noopener noreffer">managed code</a>&rdquo;. It also provides data types that are built into it such as some of them that we&rsquo;re going to explore later on.</p>
 <p>Other than that, it&rsquo;s called the &ldquo;Common Language Runtime&rdquo; which provides also provides built-in libraries, including some functions that we&rsquo;ve used earlier (recall <code>Console.WriteLine</code> and <code>Console.ReadKey</code>).</p>
-<p>So <em>C# only runs on dotNET, but what does it &ldquo;compile to&rdquo;?</em> Well binary, right? Well yes, but actually no, it compiles <em>into</em> IL (Intermediate language) form which at the end goes to binary. IL is really just a product of compilation of code written in high-level .NET languages.</p>
+<p>So <em>C# only runs on dotNET, but what does it &ldquo;compile to&rdquo;?</em> Well binary, right? Well yes, but actually no, it compiles <em>into</em> IL (Intermediate language) form which at the end goes to binary. IL is really just a product of the compilation of code written in high-level .NET languages.</p>
 <p>Now I don&rsquo;t want to make this too complex or get into too much detail, so I&rsquo;ll wrap this up here:</p>
 <table>
 <thead>
@@ -172,7 +172,7 @@
 <h2 id="exploring-c">Exploring C#</h2>
 <p>I think I&rsquo;ve talked a lot about that and you&rsquo;re probably bored if you&rsquo;ve read that, but don&rsquo;t you worry. Onto the fun parts!</p>
 <h3 id="variables">Variables</h3>
-<p>Firstly, I wanted to discuss about you from a general point of view, what a programming language should contain, let&rsquo;s see.. data/values? colors? green stuff?</p>
+<p>Firstly, I wanted to discuss with you from a general point of view, what a programming language should contain, let&rsquo;s see.. data/values? colors? green stuff?</p>
 <p>Well, it does have that, sort of. Let&rsquo;s start with the most basic item; values.</p>
 <p>&ldquo;Values&rdquo; is just a term I used for ease to give you an idea of what they are. The proper term for those are &ldquo;variables&rdquo; and that&rsquo;s what you should be using.</p>
 <p>So variables can be really simple and really complex. They are one of the most basic parts of your program.</p>
@@ -246,9 +246,9 @@
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Congratulations! You&rsquo;ve made your very first variable. Let&rsquo;s see that specific part: <code>string name;</code>. &ldquo;string name;&rdquo;, hmm&hellip; what does that mean? Well, string is the data type we declare our variable in and &ldquo;name&rdquo; is the name of our variable. You can name it <em>almost</em> anything you&rsquo;d like to, but I&rsquo;ll keep it whatever it is.</p>
+</div><p>Congratulations! You&rsquo;ve made your very first variable. Let&rsquo;s see that specific part: <code>string name;</code>. &ldquo;string name;&rdquo;, hmm&hellip; what does that mean? Well, a string is the data type we declare our variable in and &ldquo;name&rdquo; is the name of our variable. You can name it <em>almost</em> anything you&rsquo;d like to, but I&rsquo;ll keep it whatever it is.</p>
 <h4 id="using-variables">Using variables</h4>
-<p>So how do we use this variable? Is there some way to read a sentence instead of a character from the console? Of course there is! As mentioned earlier, I love C# for its incredible library and feature support. The syntax for that is <code>Console.ReadLine();</code>.</p>
+<p>So how do we use this variable? Is there some way to read a sentence instead of a character from the console? Of course, there is! As mentioned earlier, I love C# for its incredible library and feature support. The syntax for that is <code>Console.ReadLine();</code>.</p>
 <p>This is how it goes:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -289,7 +289,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>And now, when we run our program, the only thing that would happen is that it would read a sentence until we press <code>Enter</code> and then read a key to finally exit.</p>
-<p>But hey.. we haven&rsquo;t discussed about this yellow warning. Why does it say that?</p>
+<p>But hey.. we haven&rsquo;t discussed this yellow warning. Why does it say that?</p>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -298,7 +298,7 @@
         data-sizes="auto"
         alt="/blog/csharp/overview/unused_variable.png"
         title="Unused Variable" /></p>
-<p>Well first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we&rsquo;re going to use it later on.</p>
+<p>Well, first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we&rsquo;re going to use it later on.</p>
 <p>Another thing is that a lot of people don&rsquo;t read the error and just &ldquo;freak out&rdquo; as if it would never get solved. A simple trick to solve almost any error is to</p>
 <ol>
 <li>Read what the error says and understand what it means.</li>
@@ -306,7 +306,7 @@
 <li>Try to understand what it means rather than how to fix it.</li>
 </ol>
 <p>Anyhow, we need to somehow bind the name variable to <code>Console.ReadLine();</code>. We do so by &ldquo;assigning&rdquo; variables.</p>
-<p>In this case, we&rsquo;ll do it like so: <code>string name = Console.ReadLine();</code>. It&rsquo;s simple, isn&rsquo;t it? What this does is that it reads a line from the console and assigns that value to our name variable. Which means that it gets our input from the console and gives it to this &ldquo;name&rdquo; variable. So whatever the user inputs will be stored in that variable.</p>
+<p>In this case, we&rsquo;ll do it like so: <code>string name = Console.ReadLine();</code>. It&rsquo;s simple, isn&rsquo;t it? What this does is that it reads a line from the console and assigns that value to our name variable. This means that it gets our input from the console and gives it to this &ldquo;name&rdquo; variable. So whatever the user inputs will be stored in that variable.</p>
 <p>Now, if we want to print this, we&rsquo;ll simply just put in <code>name</code> inside of the arguments our <code>Console.WriteLine();</code> takes. Like so: <code>Console.WriteLine(name);</code>, but for readability, I&rsquo;ll also add another string that tells us what we wrote.</p>
 <p>We can just write two Console.WriteLines (or a <code>Console.Write</code> which is the same as <code>Console.WriteLine</code> except it doesn&rsquo;t append a new line at the end of printing), but the problem with that is we&rsquo;re printing two times due to which that method gets called* twice. That&rsquo;s not the best way to write code.</p>
 <div class="details admonition info">
@@ -314,7 +314,7 @@
             <i class="icon fas fa-info-circle fa-fw"></i>*called means invoked<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content">Like our &ldquo;Main&rdquo; method, that is called <!-- by dotNET --> when our code starts, the <code>Console.WriteLine</code> method that is part of dotNET (and not C#) gets called, which means we invoke it or run it. We&rsquo;ll look into methods in a future tutorial.</div>
+            <div class="admonition-content">Like our &ldquo;Main&rdquo; method, which is called <!-- by dotNET --> when our code starts, the <code>Console.WriteLine</code> method that is part of dotNET (and not C#) gets called, which means we invoke it or run it. We&rsquo;ll look into methods in a future tutorial.</div>
         </div>
     </div>
 <p>So, what we can do is &ldquo;contact&rdquo; strings together. There are multiple ways to do this that we will be exploring together. For this one, we&rsquo;ll use the <code>+</code> symbol like so: <code>Console.WriteLine(&quot;You typed: &quot; + name);</code>. Let&rsquo;s see how that works out:</p>
@@ -326,9 +326,9 @@
         data-sizes="auto"
         alt="/blog/csharp/overview/what_we_typed.gif"
         title="What we typed" /></p>
-<p>Great! We&rsquo;ve learnt something new.</p>
+<p>Great! We&rsquo;ve learned something new.</p>
 <h2 id="understanding-what-everything-means">Understanding what everything means</h2>
-<p>Now, as the title suggests, we&rsquo;re also going to be looking on other parts of our code that we haven&rsquo;t explored. Let&rsquo;s bring out the code:</p>
+<p>Now, as the title suggests, we&rsquo;re also going to be looking at other parts of our code that we haven&rsquo;t explored. Let&rsquo;s bring out the code:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -367,8 +367,8 @@
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Now <code>using System;</code>, what is this and what does it mean? This is called a &ldquo;using directive&rdquo; which allows us to qualify a use for a namespace. That allows us to use everything within that namespace, like the one we&rsquo;ve declared called &ldquo;learning_csharp&rdquo;. If we wouldn&rsquo;t have wrote that, we would get compile errors. Try and see it for yourself!</p>
-<p>We would have to direcly type out <code>System.Console.WriteLine(...);</code> and <code>System.Console.ReadKey();</code>. Other than that, we can also set &ldquo;aliases&rdquo; that change how we use a specific namespace. Here&rsquo;s a sample:</p>
+</div><p>Now <code>using System;</code>, what is this and what does it mean? This is called a &ldquo;using directive&rdquo; which allows us to qualify a use for a namespace. That allows us to use everything within that namespace, like the one we&rsquo;ve declared called &ldquo;learning_csharp&rdquo;. If we wouldn&rsquo;t have written that, we would get compile errors. Try and see it for yourself!</p>
+<p>We would have to directly type out <code>System.Console.WriteLine(...);</code> and <code>System.Console.ReadKey();</code>. Other than that, we can also set &ldquo;aliases&rdquo; that change how we use a specific namespace. Here&rsquo;s a sample:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -407,12 +407,12 @@
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>You&rsquo;re probably wondering what the benefit of this is, well, there&rsquo;s this thing called nested namespaces which we&rsquo;ll look into the future.</p>
-<p>Now &ldquo;class&rdquo;, what is that? Is that what a lecture you take in a school? Well, not quite. You can think of a class as a &ldquo;type&rdquo;, such as the one we used called &ldquo;string&rdquo; except it&rsquo;s a bit different. Clases are, by definition a &ldquo;reference type&rdquo; (which store a reference, we&rsquo;ll look more into &ldquo;value types&rdquo; and &ldquo;reference types&rdquo; in the future). <code>Console</code> itself is a class. Think of it as a container of methods and variables etc. We&rsquo;ll look more into those in the future.</p>
+</div><p>You&rsquo;re probably wondering what the benefit of this is, well, there&rsquo;s this thing called nested namespaces which we&rsquo;ll look into in the future.</p>
+<p>Now &ldquo;class&rdquo;, what is that? Is that what a lecture you take in a school? Well, not quite. You can think of a class as a &ldquo;type&rdquo;, such as the one we used called &ldquo;string&rdquo; except it&rsquo;s a bit different. Classes are, by definition a &ldquo;reference type&rdquo; (which stores a reference, we&rsquo;ll look more into &ldquo;value types&rdquo; and &ldquo;reference types&rdquo; in the future). <code>Console</code> itself is a class. Think of it as a container of methods and variables etc. We&rsquo;ll look more into those in the future.</p>
 <p>I know I&rsquo;m saying that a lot that &ldquo;we&rsquo;ll be looking more into that in the future&rdquo; and not explaining a lot because it really gets super complex.</p>
 <h2 id="variable-types">Variable types</h2>
 <p>Now I think we should have a glance and the basic types.</p>
-<p>Starting with <code>int</code>. Well, what is int? If you can guess, it means integer. You cannot have a floating point value in an integer which means a decimal point value such as <code>1.1146</code>. You can perhaps store someone&rsquo;s age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more. Now a number takes memory to store right? An int type takes 4 bytes of memory in C#, which means the maximum number you can have is <code>2,147,483,647</code> which is a lot.</p>
+<p>Starting with <code>int</code>. Well, what is int? If you can guess, it means integer. You cannot have a floating-point value is an integer which means a decimal point value such as <code>1.1146</code>. You can perhaps store someone&rsquo;s age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more. Now a number takes memory to store right? An int type takes 4 bytes of memory in C#, which means the maximum number you can have is <code>2,147,483,647</code> which is a lot.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -434,7 +434,7 @@
 </span><span class="c1"></span><span class="kt">string</span> <span class="n">variable</span> <span class="p">=</span> <span class="s">&#34;Hello World!&#34;</span><span class="p">;</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Char is a type which can only take in one character. The interesting thing about them is that they can be declared with both single and double quotes like: <code>''</code> and <code>&quot;&quot;</code>.</p>
+</div><p>Char is a type that can only take in one character. The interesting thing about them is that they can be declared with both single and double quotes like <code>''</code> and <code>&quot;&quot;</code>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -465,7 +465,7 @@
 <span class="kt">string</span> <span class="n">myString</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">string</span><span class="p">(</span><span class="n">myCharArray</span><span class="p">);</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Now this has a lot in it, a lot, and I can understand that. But you don&rsquo;t need to worry about this for now.</p>
+</div><p>Now, this has a lot in it, a lot, and I can understand that. But you don&rsquo;t need to worry about this for now.</p>
 </div>
         </div>
     </div>
@@ -480,7 +480,7 @@
         data-sizes="auto"
         alt="/blog/csharp/overview/ascii_table.png"
         title="ASCII Table" /></p>
-<p>Great! We can store that in a variable like we did when uisng <code>Console.ReadLine();</code> except that since it returns an int, we will store it in an int, like so:</p>
+<p>Great! We can store that in a variable like we did when using <code>Console.ReadLine();</code> except that since it returns an int, we will store it in an int, like so:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -489,7 +489,7 @@
 <pre class="chroma"><code class="language-cs" data-lang="cs"><span class="kt">int</span> <span class="n">key</span> <span class="p">=</span> <span class="n">Console</span><span class="p">.</span><span class="n">Read</span><span class="p">();</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>But the problem is that we don&rsquo;t know how to determine which key it is, when we use or print it to the console, we will get a number. So, to <em>convert</em> it into a form of text (either string or char), we can &ldquo;cast&rdquo; it. There are two ways of casting, we&rsquo;ll be using &ldquo;explicit&rdquo; casting which will go like:</p>
+</div><p>But the problem is that we don&rsquo;t know how to determine which key it is, when we use or print it to the console, we will get a number. So, to <em>convert</em> it into a form of text (either string or char), we can &ldquo;cast&rdquo; it. There are two ways of casting, we&rsquo;ll be using &ldquo;explicit&rdquo; casting which will go like this:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -500,11 +500,11 @@
 </div>
 </div><p>But we&rsquo;ll get an error, this is because we&rsquo;re making it into a character, although the variable we&rsquo;re storing is an integer, which is wrong because as stated earlier, both have a different size and definition.</p>
 <p>So, we can simply change that <code>int</code> to <code>char</code> i.e, <code>char key = Convert.ToChar(Console.Read());</code>.</p>
-<p>Similarly, you can also change it to <code>Convert.ToString</code> (note that you would also have to change the type). For a normal integer i.e, <code>int</code>, you can use <code>Convert.ToInt32</code> which represents a 32 bit integer. We&rsquo;ll be looking about different types of numbers in the future.</p>
+<p>Similarly, you can also change it to <code>Convert.ToString</code> (note that you would also have to change the type). For a normal integer i.e, <code>int</code>, you can use <code>Convert.ToInt32</code> which represents a 32-bit integer. We&rsquo;ll be looking at different types of numbers in the future.</p>
 <h2 id="wrapping-up">Wrapping up</h2>
-<p>I think that&rsquo;s enough for today, we have learnt a lot.</p>
+<p>I think that&rsquo;s enough for today, we have learned a lot.</p>
 <p>Now for today&rsquo;s challenge:</p>
-<p>Your goal is to make a program, a chat bot, doesn&rsquo;t need to be good, just a simple chat bot which asks some questions and talks for a bit. You can make it however you like.</p>
+<p>Your goal is to make a program, a chatbot doesn&rsquo;t need to be good, just a simple chatbot that asks some questions and talks for a bit. You can make it however you like.</p>
 <p>This is how it should look:</p>
 <p><img
         class="lazyload"
@@ -514,8 +514,8 @@
         data-sizes="auto"
         alt="/blog/csharp/overview/chat_bot.gif"
         title="Chat Bot" /></p>
-<p>Now, as this is a challenge for you, you&rsquo;re going to have to do it without copying code. I will leave a solution/sample if you ever get stuck. Don&rsquo;t worry though, you only require more practise.</p>
-<p>I&rsquo;ll be using <a href="https://paste.myst.rs" target="_blank" rel="noopener noreffer">PasteMyst</a> to store the solutions, pastemyst is a code sharing site which I would recommend that you should use.
+<p>Now, as this is a challenge for you, you&rsquo;re going to have to do it without copying code. I will leave a solution/sample if you ever get stuck. Don&rsquo;t worry though, you only require more practice.</p>
+<p>I&rsquo;ll be using <a href="https://paste.myst.rs" target="_blank" rel="noopener noreffer">PasteMyst</a> to store the solutions, pastemyst is a code-sharing site that I would recommend that you should use.
 Here&rsquo;s the paste: <a href="https://paste.myst.rs/y1ze5xfl" target="_blank" rel="noopener noreffer">pastemyst/y1ze5xfl</a>.</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -527,7 +527,7 @@ Here&rsquo;s the paste: <a href="https://paste.myst.rs/y1ze5xfl" target="_blank"
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://anf.myst.rs/blog/csharp/overview/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Tumblr" data-sharer="tumblr" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works" data-caption="Today we&#39;re going to have a quick overview on C#, its syntax and how it works."><i class="fab fa-tumblr fa-fw"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://anf.myst.rs/blog/csharp/overview/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works" data-description="Today we&#39;re going to have a quick overview on C#, its syntax and how it works."><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://anf.myst.rs/blog/csharp/overview/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Tumblr" data-sharer="tumblr" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works" data-caption="Today we&#39;re going to have a quick overview on C#, its syntax, and how it works."><i class="fab fa-tumblr fa-fw"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://anf.myst.rs/blog/csharp/overview/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://anf.myst.rs/blog/csharp/overview/" data-title="A gentle overview of C# and how it works" data-description="Today we&#39;re going to have a quick overview on C#, its syntax, and how it works."><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a></span>
             </div>
         </div>
     </div>

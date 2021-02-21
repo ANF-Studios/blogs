@@ -3,7 +3,7 @@ title: "A gentle overview of C# and how it works"
 description: "Today we're going to have a quick overview on C#, its syntax and how it works."
 slug: overview
 date: 2021-02-15T21:04:24-05:00
-draft: true
+draft: false
 categories:
 - CSharp
 #aliases: 
@@ -76,6 +76,8 @@ Now I don't want to make this too complex or get into too much detail, so I'll w
 
 I think I've talked a lot about that and you're probably bored if you've read that, but don't you worry. Onto the fun parts!
 
+### Variables
+
 Firstly, I wanted to discuss about you from a general point of view, what a programming language should contain, let's see.. data/values? colors? green stuff?
 
 Well, it does have that, sort of. Let's start with the most basic item; values.
@@ -123,6 +125,8 @@ namespace learning_csharp
 ```
 
 Congratulations! You've made your very first variable. Let's see that specific part: `string name;`. "string name;", hmm... what does that mean? Well, string is the data type we declare our variable in and "name" is the name of our variable. You can name it *almost* anything you'd like to, but I'll keep it whatever it is.
+
+#### Using variables
 
 So how do we use this variable? Is there some way to read a sentence instead of a character from the console? Of course there is! As mentioned earlier, I love C# for its incredible library and feature support. The syntax for that is `Console.ReadLine();`.
 
@@ -177,6 +181,8 @@ So, what we can do is "contact" strings together. There are multiple ways to do 
 
 Great! We've learnt something new.
 
+## Understanding what everything means
+
 Now, as the title suggests, we're also going to be looking on other parts of our code that we haven't explored. Let's bring out the code:
 
 ```cs
@@ -226,6 +232,8 @@ You're probably wondering what the benefit of this is, well, there's this thing 
 Now "class", what is that? Is that what a lecture you take in a school? Well, not quite. You can think of a class as a "type", such as the one we used called "string" except it's a bit different. Clases are, by definition a "reference type" (which store a reference, we'll look more into "value types" and "reference types" in the future). `Console` itself is a class. Think of it as a container of methods and variables etc. We'll look more into those in the future.
 
 I know I'm saying that a lot that "we'll be looking more into that in the future" and not explaining a lot because it really gets super complex.
+
+## Variable types
 
 Now I think we should have a glance and the basic types.
 

@@ -18,7 +18,7 @@ Oh hello there!
 
 If you're here and this is your first time/series here, I would recommend taking a look at the first series where I introduced you to programming and C#, we also got everything set up and ran our first hello world program. If you have gone through that, you don't really need to read it, but I'd still recommend that.
 
-And if you are coming from that article, I hope you've done your "homework". If you got stuck, feel free to ask for help at my discord server: [discord/ANF-Studios](https://discord.gg/fKWpK7A) - there are a ton of programmers that have experience in programming so they should be really helpful.
+And if you are coming from that article, congrats if you learnt something new.. If you got stuck, feel free to ask for help at my discord server: [discord/ANF-Studios](https://discord.gg/fKWpK7A) - there are a ton of programmers that have experience in programming so they should be really helpful.
 
 Anyhow, let's get started!
 
@@ -156,7 +156,9 @@ But hey.. we haven't discussed this yellow warning. Why does it say that?
 
 ![Unused Variable](unused_variable.png)
 
-Well, first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we're going to use it later on.
+First of all, I want to point out that this variable is unused, but it allocates memory (RAM) unnecessarily. We are going to use the variable later on, so we can ignore that.
+
+<!-- Well, first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we’re going to use it later on. -->
 
 Another thing is that a lot of people don't read the error and just "freak out" as if it would never get solved. A simple trick to solve almost any error is to
 1. Read what the error says and understand what it means.
@@ -237,7 +239,7 @@ I know I'm saying that a lot that "we'll be looking more into that in the future
 
 Now I think we should have a glance and the basic types.
 
-Starting with `int`. Well, what is int? If you can guess, it means integer. You cannot have a floating-point value is an integer which means a decimal point value such as `1.1146`. You can perhaps store someone's age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more. Now a number takes memory to store right? An int type takes 4 bytes of memory in C#, which means the maximum number you can have is `2,147,483,647` which is a lot.
+Starting with `int`. Well, what is int? If you can guess, it means integer. You cannot have a floating-point value as an integer which means a decimal point value such as `1.1146`. Only whole numbers are valid. You can perhaps store someone's age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more. Now a number takes memory to store right? An int type takes 4 bytes of memory in C#, which means the maximum number you can have is `2,147,483,647` which is a lot.
 
 ```cs
 // Declaration example.

@@ -3,6 +3,7 @@ title: "A gentle overview of C# and how it works"
 description: "Today we're going to have a quick overview on C#, its syntax, and how it works."
 slug: overview
 date: 2021-02-21T14:14:37-05:00
+lastmod: 2021-02-22T06:24:51-05:00
 draft: false
 categories:
 - CSharp

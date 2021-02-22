@@ -175,7 +175,7 @@ We can just write two Console.WriteLines (or a `Console.Write` which is the same
 Like our "Main" method, which is called <!-- by dotNET --> when our code starts, the `Console.WriteLine` method that is part of dotNET (and not C#) gets called, which means we invoke it or run it. We'll look into methods in a future tutorial.
 {{</admonition>}}
 
-So, what we can do is "contact" strings together. There are multiple ways to do this that we will be exploring together. For this one, we'll use the `+` symbol like so: `Console.WriteLine("You typed: " + name);`. Let's see how that works out:
+So, what we can do is "concatenate" strings together. There are multiple ways to do this that we will be exploring together. For this one, we'll use the `+` symbol like so: `Console.WriteLine("You typed: " + name);`. Let's see how that works out:
 
 ![What we typed](what_we_typed.gif)
 

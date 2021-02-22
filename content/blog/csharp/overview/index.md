@@ -156,7 +156,7 @@ But hey.. we haven't discussed this yellow warning. Why does it say that?
 
 ![Unused Variable](unused_variable.png)
 
-First of all, I want to point out that this variable is unused, but it allocates memory (RAM) unnecessarily. We are going to use the variable later on, so we can ignore that.
+First of all, I want to point out that this variable is unused, but it allocates memory (RAM) unnecessarily. We are going to use the variable later on, so we can ignore that for now and will use our string later on.
 
 <!-- Well, first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we’re going to use it later on. -->
 

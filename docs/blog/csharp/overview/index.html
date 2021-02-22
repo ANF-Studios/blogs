@@ -24,7 +24,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/anf.myst.rs\/blog\/csharp\/overview\/"
-        },"image": ["https:\/\/anf.myst.rs\/logo.png"],"genre": "blog","wordcount":  2933 ,
+        },"image": ["https:\/\/anf.myst.rs\/logo.png"],"genre": "blog","wordcount":  2869 ,
         "url": "https:\/\/anf.myst.rs\/blog\/csharp\/overview\/","datePublished": "2021-02-21T14:14:37-05:00","dateModified": "2021-02-21T14:14:37-05:00","publisher": {
             "@type": "Organization",
             "name": "ANF-Studios"},"author": {
@@ -74,7 +74,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">A gentle overview of C# and how it works</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/ANF" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>ANF-Studios</a></span>&nbsp;<span class="post-category">included in <a href="/blog/csharp/"><i class="far fa-folder fa-fw"></i>C#</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="21.02.2021">21.02.2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;2933 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="21.02.2021">21.02.2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;2869 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;14 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -108,7 +108,7 @@
 </nav></div>
             </div><div class="content" id="content"><p>Oh hello there!</p>
 <p>If you&rsquo;re here and this is your first time/series here, I would recommend taking a look at the first series where I introduced you to programming and C#, we also got everything set up and ran our first hello world program. If you have gone through that, you don&rsquo;t really need to read it, but I&rsquo;d still recommend that.</p>
-<p>And if you are coming from that article, I hope you&rsquo;ve done your &ldquo;homework&rdquo;. If you got stuck, feel free to ask for help at my discord server: <a href="https://discord.gg/fKWpK7A" target="_blank" rel="noopener noreffer">discord/ANF-Studios</a> - there are a ton of programmers that have experience in programming so they should be really helpful.</p>
+<p>And if you are coming from that article, congrats if you learnt something new.. If you got stuck, feel free to ask for help at my discord server: <a href="https://discord.gg/fKWpK7A" target="_blank" rel="noopener noreffer">discord/ANF-Studios</a> - there are a ton of programmers that have experience in programming so they should be really helpful.</p>
 <p>Anyhow, let&rsquo;s get started!</p>
 <h2 id="about-c">About C#</h2>
 <div class="details admonition tip">
@@ -116,7 +116,7 @@
             <i class="icon fas fa-lightbulb fa-fw"></i>No need to read this part<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content">This header has a lot of detail and I left some parts because I did not want it to get too complex. This may get boring, at least in your first stage of learning - if you wish not to read it, you don&rsquo;t need to, you can come back later if you want, or not at all. Alright, now you can skip to the real part if you wish to!</div>
+            <div class="admonition-content">This introduction may get boring, especially if you&rsquo;re a beginner. Feel free to skip this part!</div>
         </div>
     </div>
 <p>C# really helps out to create robust and durable applications. This is all thanks to Microsoft. Speaking of Microsoft, they are the ones who are developing C# based on dotNET, which is what we installed in the previous post.</p>
@@ -298,7 +298,8 @@
         data-sizes="auto"
         alt="/blog/csharp/overview/unused_variable.png"
         title="Unused Variable" /></p>
-<p>Well, first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we&rsquo;re going to use it later on.</p>
+<p>First of all, I want to point out that this variable is unused, but it allocates memory (RAM) unnecessarily. We are going to use the variable later on, so we can ignore that.</p>
+<!-- Well, first of all, I want to point out that this variable is unused which allocates memory (writes to our RAM) unnecessarily, it wants to help us write better code but that warning is nothing to be worried about because we’re going to use it later on. -->
 <p>Another thing is that a lot of people don&rsquo;t read the error and just &ldquo;freak out&rdquo; as if it would never get solved. A simple trick to solve almost any error is to</p>
 <ol>
 <li>Read what the error says and understand what it means.</li>
@@ -317,7 +318,7 @@
             <div class="admonition-content">Like our &ldquo;Main&rdquo; method, which is called <!-- by dotNET --> when our code starts, the <code>Console.WriteLine</code> method that is part of dotNET (and not C#) gets called, which means we invoke it or run it. We&rsquo;ll look into methods in a future tutorial.</div>
         </div>
     </div>
-<p>So, what we can do is &ldquo;contact&rdquo; strings together. There are multiple ways to do this that we will be exploring together. For this one, we&rsquo;ll use the <code>+</code> symbol like so: <code>Console.WriteLine(&quot;You typed: &quot; + name);</code>. Let&rsquo;s see how that works out:</p>
+<p>So, what we can do is &ldquo;concatenate&rdquo; strings together. There are multiple ways to do this that we will be exploring together. For this one, we&rsquo;ll use the <code>+</code> symbol like so: <code>Console.WriteLine(&quot;You typed: &quot; + name);</code>. Let&rsquo;s see how that works out:</p>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -412,7 +413,7 @@
 <p>I know I&rsquo;m saying that a lot that &ldquo;we&rsquo;ll be looking more into that in the future&rdquo; and not explaining a lot because it really gets super complex.</p>
 <h2 id="variable-types">Variable types</h2>
 <p>Now I think we should have a glance and the basic types.</p>
-<p>Starting with <code>int</code>. Well, what is int? If you can guess, it means integer. You cannot have a floating-point value is an integer which means a decimal point value such as <code>1.1146</code>. You can perhaps store someone&rsquo;s age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more. Now a number takes memory to store right? An int type takes 4 bytes of memory in C#, which means the maximum number you can have is <code>2,147,483,647</code> which is a lot.</p>
+<p>Starting with <code>int</code>. Well, what is int? If you can guess, it means integer. You cannot have a floating-point value as an integer which means a decimal point value such as <code>1.1146</code>. Only whole numbers are valid. You can perhaps store someone&rsquo;s age using Console.ReadLine? You can store how many days does it take for the Earth to complete an orbit around the Sun and much, much more. Now a number takes memory to store right? An int type takes 4 bytes of memory in C#, which means the maximum number you can have is <code>2,147,483,647</code> which is a lot.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1

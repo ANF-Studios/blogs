@@ -24,7 +24,7 @@ Anyhow, let's get started!
 
 ## About C#
 {{<admonition tip "No need to read this part" false>}}
-This header has a lot of detail and I left some parts because I did not want it to get too complex. This may get boring, at least in your first stage of learning - if you wish not to read it, you don't need to, you can come back later if you want, or not at all. Alright, now you can skip to the real part if you wish to!
+This introduction may get boring, especially if you're a beginner. Feel free to skip this part!
 {{</admonition>}}
 
 C# really helps out to create robust and durable applications. This is all thanks to Microsoft. Speaking of Microsoft, they are the ones who are developing C# based on dotNET, which is what we installed in the previous post.

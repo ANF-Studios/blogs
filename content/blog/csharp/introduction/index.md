@@ -3,7 +3,7 @@ title: "An introduction into programming and writing our first lines of code"
 description: "Hey there! This is the very first article of this series in which we will be learning C# and working on projects."
 slug: introduction
 date: 2021-02-13T12:02:32-05:00
-lastmod: 2021-02-20T02:55:55-05:00
+lastmod: 2021-02-22T06:26:53-05:00
 draft: false
 categories:
 - CSharp
@@ -284,11 +284,11 @@ namespace learning_csharp
 
 And that's our first program!
 
-With that being said, I think it's been too long and you've spent some time setting this up, so we should wrap this up. I really hope I made it as clear as possible, hopefully, this is everything you need to know before getting started.
+With that being said, I think it's been too long and you've spent some time setting this up, so we should wrap this up. I hope I made it as clear as possible, hopefully, this is everything you need to know before getting started.
 
-So before leaving, I'll be sometimes assigning some tasks to you so that you can test your one skills. I won't be checking it unless you want to show it to me (hit me up at my discord server at [discord/ANF-Studios](https://discord.gg/fKWpK7A) :wink:).
+So before leaving, I'll be sometimes assigning some tasks to you so that you can test your one skills, or challenges if you will. I won't be checking it unless you want to show it to me (hit me up at my discord server at [discord/ANF-Studios](https://discord.gg/fKWpK7A) :wink:). For today, I wouldn't give you something complex and it would be really simple.
 
-Today's assignment for you is to change the text within the strings of the `Console.WriteLine();`. Try changing it, here are some examples:
+Today's challenge for you is to change the text within the strings of the `Console.WriteLine();`. Try changing it, here are some examples:
 ```cs
 Console.WriteLine("I am some text being printed!");
 Console.WriteLine(42);

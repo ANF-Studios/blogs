@@ -13,7 +13,7 @@ author: "ANF-Studios"
 
 <!--more-->
 
-Strings. What are they and how do we use them? They seem very powerful and we have used them a lot. We'll be looking at how they can be used today.
+Strings. What are they and how do we use them? Are strings a thread of cotton in our code? They seem very powerful and we have used them a lot. We'll be looking at how they can be used today.
 
 {{<admonition info "Remember the previous challenge? 👀" false>}}
 Hey there, if you haven't read the [previous article](/blog/csharp/overview), I recommend skimming over it, we looked through basic types and a bit on C# and dotNET itself.
@@ -54,3 +54,6 @@ string str = "Hello Wo\0rld!";
 ```
 
 This program will output: `Hello Wo rld!`. Crazy, right? But that's how it works and as far as it goes to the design choice, I do believe this is the right thing as C# is a managed, high-level language.
+
+Just a quick note that I used a space there and a space character is not a null character!
+

@@ -57,3 +57,19 @@ This program will output: `Hello Wo rld!`. Crazy, right? But that's how it works
 
 Just a quick note that I used a space there and a space character is not a null character!
 
+### Convert other data types to a string
+String is a very commonly used and interchanging data types can be really useful. In the previous blog, we used the `Convert.ToString` method which was really useful. But that was a quick overview, we'll be looking into that in greater detail.
+
+Now, since C# is a strongly typed language, we can't "automatically" change the type. This isn't JavaScript.
+
+![JavaScript got it all covered](javascript_conversion.png)
+
+and if you do something like:
+```cs
+int i;
+
+// error CS0029: Cannot implicitly convert type 'string' to 'int'
+i = "Hello";
+```
+
+You'll get an error! Moving on..

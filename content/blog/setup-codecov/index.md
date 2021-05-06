@@ -14,4 +14,16 @@ author: "ANF-Studios"
 
 <!--more-->
 
-TODO: Complete this blog.
+As a newbie or experienced programmer, you might have faced some issues when setting up [CodeCov](https://codecov.io), because I know I did. Being aware of how hard it can be, but still being able to do so (because I love DevOps personally) despite of that is great, but I'm also going to share how I did so!
+
+Before we start, keep note that my project uses:
+| Property          | Value                                                            |
+| ----------------- | ---------------------------------------------------------------- |
+| Language          | C#                                                               |
+| Version control   | GitHub*                                                          |
+| CI                | AppVeyor*                                                        |
+| Testing framework | xUnit**                                                          |
+| *                 | This is what I'll use, however, it doesn't *specifically* matter |
+| **                | You can use any                                                  |
+
+Now let's get started!

@@ -75,4 +75,10 @@ i = "Hello";
 You'll get an error! Moving on..
 
 #### Implicit vs Explicit
+So we know how to convert another data type to a string, but there are other ways as well. But before we look into those, we should know that there are four types of type-conversion. But we're not going to discuss all of them, rather just two most basic and essential ones that you'd be using most of the time; implicit type-conversion and explicit type-conversion. I will discuss all of them some time in the future though.
 
+
+
+
+
+![Why is this string made of another string?](string_tostring.png)

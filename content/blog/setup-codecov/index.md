@@ -94,7 +94,7 @@ And voila! You have generated your report. Granted that you have unit tests cove
 
 By far, the easiest way to send your report to CodeCov is using [their console](https://github.com/codecov/codecov-exe/releases/latest). You can run
 ```ps1
-> codecov.exe --file "path/to/file" # --token "..." # Uncomment the token part if you aren't using a CI like AppVeyor, GitHub Actions, Circle CI, Travis etc. 
+> codecov.exe --file "path/to/file" # --token "..." # Uncomment the token part if you aren't using a CI like AppVeyor, GitHub Actions, Circle CI, Travis, etc. 
 ```
 
 But there's a catch here, the cli will detect your project root and set its working directory there and that there's a guid folder randomly generated so it's hard to get that directory, there are multiple workarounds for it.
@@ -105,7 +105,7 @@ cd testsfolder/TestResults/;
 foreach ($dir in dir)
 {
     cd $dir # Since in your CI, there's only one directory for one test, you can cd into that.
-    # Optionally also send the report directly if you have more than one test results.
+    # Optionally also send the report directly if you have more than one test result.
 }
 ```
 
@@ -123,7 +123,7 @@ And now, if we check, our code coverage is reported:
 
 ![Reported code coverage to CodeCov](reported_coverage.png)
 
-It's there and every statistic is there! And that leads us to our conclusion! But since this article is about sending report using AppVeyor, we shall write a small script to do so, but first, don't forget to push your settings!
+It's there and every statistic is there! And that leads us to our conclusion! But since this article is about sending reports using AppVeyor, we shall write a small script to do so, but first, don't forget to push your settings!
 
 ![Create a script to test in CodeCov](create_test_script.png)
 

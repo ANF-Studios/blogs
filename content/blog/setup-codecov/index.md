@@ -112,6 +112,41 @@ And now if we send our report:
 ![Reporting code coverage to CodeCov](reporting_coverage.png)
 
 And now, if we check, our code coverage is reported:
+
 ![Reported code coverage to CodeCov](reported_coverage.png)
 
-And that leads us to our conclusion! But since this article is about sending report using AppVeyor, we shall write a small script to do so, but first, don't forget to push your settings!
+It's there and every statistic is there! And that leads us to our conclusion! But since this article is about sending report using AppVeyor, we shall write a small script to do so, but first, don't forget to push your settings!
+
+![Create a script to test in CodeCov](create_test_script.png)
+
+```yml
+image: Visual Studio 2019
+
+before_build:
+- pwsh: dotnet restore
+build:
+  verbosity: minimal
+test_script:
+- ps: >-
+    $initialDir = $(pwd);
+
+    Invoke-WebRequest -Uri "https://github.com/codecov/codecov-exe/releases/download/1.13.0/codecov-win7-x64.zip" -Outfile "codecov.zip";
+
+    Expand-Archive -Path "codecov.zip";
+
+    cd codecov;
+
+    foreach ($file in [System.IO.Directory]::GetFiles($(pwd))) { Copy-Item -Path $file -Destination "C:\Windows\" };
+
+    cd ../
+    
+    dotnet test tests/tests.csproj --collect:"XPlat Code Coverage" --settings "./tests/coverage.settings";
+
+    cd ./tests/TestResults;
+
+    foreach ($dir in dir) { cd $dir };
+
+    codecov.exe -f coverage.opencover.xml
+```
+
+This is the yml file if you're interested. You can modify it for your needs.

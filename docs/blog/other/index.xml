@@ -4,7 +4,16 @@
         <link>https://anf.myst.rs/blog/other/</link>
         <description>Other blogs - Category - ANF Blogs</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>anforg@outlook.com (ANF)</managingEditor>
-            <webMaster>anforg@outlook.com (ANF)</webMaster><lastBuildDate>Wed, 03 Feb 2021 09:32:38 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/blog/other/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>anforg@outlook.com (ANF)</webMaster><lastBuildDate>Thu, 06 May 2021 12:23:02 -0400</lastBuildDate><atom:link href="https://anf.myst.rs/blog/other/" rel="self" type="application/rss+xml" /><item>
+    <title>How to setup Codecov, C#</title>
+    <link>https://anf.myst.rs/blog/setup-codecov/</link>
+    <pubDate>Thu, 06 May 2021 12:23:02 -0400</pubDate>
+    <author>Author</author>
+    <guid>https://anf.myst.rs/blog/setup-codecov/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/codecov_banner.jpg" referrerpolicy="no-referrer">
+            </div>Here's a quick tutorial on how to set up CodeCov with C# using AppVeyor!]]></description>
+</item><item>
     <title>How to deal with Null Reference Exception</title>
     <link>https://anf.myst.rs/blog/nullref/</link>
     <pubDate>Wed, 03 Feb 2021 09:32:38 -0500</pubDate>

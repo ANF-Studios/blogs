@@ -4,7 +4,15 @@
         <link>https://anf.myst.rs/categories/</link>
         <description>Categories - Category - ANF Blogs</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>anforg@outlook.com (ANF)</managingEditor>
-            <webMaster>anforg@outlook.com (ANF)</webMaster><lastBuildDate>Sun, 21 Feb 2021 14:14:37 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>anforg@outlook.com (ANF)</webMaster><lastBuildDate>Thu, 06 May 2021 12:23:02 -0400</lastBuildDate><atom:link href="https://anf.myst.rs/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Other blogs</title>
+    <link>https://anf.myst.rs/blog/other/</link>
+    <pubDate>Thu, 06 May 2021 12:23:02 -0400</pubDate>
+    <author>Author</author>
+    <guid>https://anf.myst.rs/blog/other/</guid>
+    <description><![CDATA[Hello there!
+These are some of our other blogs that we decide to write but don&rsquo;t really match the theme of us or our works.]]></description>
+</item><item>
     <title>C# Series - ANF Blogs</title>
     <link>https://anf.myst.rs/blog/csharp/</link>
     <pubDate>Sun, 21 Feb 2021 14:14:37 -0500</pubDate>
@@ -13,13 +21,5 @@
     <description><![CDATA[Hello there!
 This is the C# series that ANF decided to work on!They're not really perfect, but we'll try to keep them as detailed and simple (at the same time) as possible.
 The architecture of our tutorialsI&rsquo;ve decided that I would after &ldquo;welcoming back&rdquo;, usually give some fun facts and information. After which we&rsquo;ll move on to the topic of the day and finally wrap up. You&rsquo;ll also get homework/assignment which you.]]></description>
-</item><item>
-    <title>Other blogs</title>
-    <link>https://anf.myst.rs/blog/other/</link>
-    <pubDate>Wed, 03 Feb 2021 09:32:38 -0500</pubDate>
-    <author>Author</author>
-    <guid>https://anf.myst.rs/blog/other/</guid>
-    <description><![CDATA[Hello there!
-These are some of our other blogs that we decide to write but don&rsquo;t really match the theme of us or our works.]]></description>
 </item></channel>
 </rss>

@@ -4,7 +4,16 @@
         <link>https://anf.myst.rs/blog/</link>
         <description>All ANF Blogs | ANF Blogs</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>anforg@outlook.com (ANF)</managingEditor>
-            <webMaster>anforg@outlook.com (ANF)</webMaster><lastBuildDate>Sun, 21 Feb 2021 14:14:37 -0500</lastBuildDate><atom:link href="https://anf.myst.rs/blog/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>anforg@outlook.com (ANF)</webMaster><lastBuildDate>Thu, 06 May 2021 12:23:02 -0400</lastBuildDate><atom:link href="https://anf.myst.rs/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>How to setup Codecov, C#</title>
+    <link>https://anf.myst.rs/blog/setup-codecov/</link>
+    <pubDate>Thu, 06 May 2021 12:23:02 -0400</pubDate>
+    <author>Author</author>
+    <guid>https://anf.myst.rs/blog/setup-codecov/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/codecov_banner.jpg" referrerpolicy="no-referrer">
+            </div>Here's a quick tutorial on how to set up CodeCov with C# using AppVeyor!]]></description>
+</item><item>
     <title></title>
     <link>https://anf.myst.rs/blog/csharp/</link>
     <pubDate>Sun, 21 Feb 2021 14:14:37 -0500</pubDate>

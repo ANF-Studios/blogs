@@ -46,12 +46,16 @@ Once there, you should see something like this:
 
 Keep note you might need to activate the repository in its settings if necessary. You should also notice your token, you don't really need it if your repository is public and your CI is any of Travis, CircleCI, AppVeyor, Azure Pipelines or GitHub Actions, otherwise, you do.
 
+## Sending reports to CodeCov
+
 Perfect! We now have added our project to CodeCov, now, we need to set up AppVeyor. I trust that you already have a CI, so we'll skip the adding a codecov project part. Oh and, it usually doesn't matter what CI you use.
 
 But before we jump into the CI directly, let's generate those reports on our local computers so that we can get to see the results for ourselves. So first and foremost, we run our tests, *but*, we also need to tell .NET to generate an XML report, to do so, we'll be using [XPlat Code Coverage](https://github.com/coverlet-coverage/coverlet/blob/master/Documentation/VSTestIntegration.md) which will help us generate code coverage reports. For that, we'll use this as our coverage collector:
 ```ps1
 > dotnet.exe test --collect:"XPlat Code Coverage"
 ```
+
+### Coverage settings
 
 On running this, you'll notice an xml file has been generated in `Project_Root/TestsFolder/TestResults/Some GUID/coverage.cobertura.xml`. And codecov does require an xml file, however, this is not the format of the xml CodeCov expects from us. *CodeCov uses OpenCover.* Hence you require coverlet.console to be installed (citation needed). You can run `dotnet tool install coverlet.console --global`.
 
@@ -78,6 +82,8 @@ It's in an xml format and this is the bare bones you'll be needing:
 ```
 
 See [Coverlet's documentation](https://github.com/coverlet-coverage/coverlet/blob/master/Documentation/VSTestIntegration.md) for more information.
+
+### Generating reports
 
 I like to store this `runsettings` file in the tests directory, but you don't need to do the same. Once the file is there, you can run
 ```ps1
@@ -107,6 +113,8 @@ For command prompt:
 ```cmd
 for /d %%A in (*) do cd %%A
 ```
+
+## Final result
 
 And now if we send our report:
 ![Reporting code coverage to CodeCov](reporting_coverage.png)
@@ -149,4 +157,4 @@ test_script:
     codecov.exe -f coverage.opencover.xml
 ```
 
-This is the yml file if you're interested. You can modify it for your needs.
+This is the yml file if you're interested. You can modify it for your needs. That said, this brings us to our conclusion, I hope you found this helpful!

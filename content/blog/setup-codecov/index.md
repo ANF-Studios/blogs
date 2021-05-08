@@ -8,7 +8,7 @@ categories:
 - Other
 aliases:
 - /blog/how-to-setup-codecov
-#featuredImage: null
+featuredImage: codecov_banner.jpg
 author: "ANF-Studios"
 ---
 

@@ -119,6 +119,12 @@ for /d %%A in (*) do cd %%A
 And now if we send our report:
 ![Reporting code coverage to CodeCov](reporting_coverage.png)
 
+{{<admonition info "What that gradient is..." false>}}
+Fun fact, my desktop wallpaper at the time of taking that image is this:
+
+![Desktop wallpaper](wallpaper.jpg)
+{{</admonition>}}
+
 And now, if we check, our code coverage is reported:
 
 ![Reported code coverage to CodeCov](reported_coverage.png)
